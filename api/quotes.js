@@ -9,199 +9,111 @@ export default function handler(req, res) {
     return;
     }
 
-    const quotes = [
-        { 
-            q: "Success is not final, failure is not fatal: it is the courage to continue that counts.", 
-            a: "Winston Churchill" 
-        },
-        { 
-            q: "The only limit to our realization of tomorrow is our doubts of today.", 
-            a: "Franklin D. Roosevelt" 
-        },
-        { 
-            q: "Do what you can, with what you have, where you are.", 
-            a: "Theodore Roosevelt" 
-        },
-        { 
-            q: "It always seems impossible until it's done.", 
-            a: "Nelson Mandela" 
-        },
-        { 
-            q: "Believe you can and you're halfway there.", 
-            a: "Theodore Roosevelt" 
-        },
-        { 
-            q: "Act as if what you do makes a difference. It does.", 
-            a: "William James" 
-        },
-        { q: 
-            "Happiness depends upon ourselves.", 
-            a: "Aristotle" 
-        },
-        { 
-            q: "In the middle of every difficulty lies opportunity.", 
-            a: "Albert Einstein" 
-        },
-        { 
-            q: "Keep your face always toward the sunshine, and shadows will fall behind you.", 
-            a: "Walt Whitman" 
-        },
-        { 
-            q: "No one can make you feel inferior without your consent.", 
-            a: "Eleanor Roosevelt" 
-        },
-        { 
-            q: "Do not wait to strike till the iron is hot, but make it hot by striking.", 
-            a: "William Butler Yeats" 
-        },
-        { 
-            q: "You miss 100% of the shots you don’t take.", 
-            a: "Wayne Gretzky" 
-        },
-        { 
-            q: "We become what we think about.", 
-            a: "Earl Nightingale" 
-        },
-        { 
-            q: "Strive not to be a success, but rather to be of value.", 
-            a: "Albert Einstein" 
-        },
-        { 
-            q: "The only way to do great work is to love what you do.", 
-            a: "Steve Jobs" 
-        },
-        { 
-            q: "Opportunities don't happen. You create them.", 
-            a: "Chris Grosser" 
-        },
-        { 
-            q: "Don't watch the clock; do what it does. Keep going.", 
-            a: "Sam Levenson" 
-        },
-        { 
-            q: "Dream big and dare to fail.", 
-            a: "Norman Vaughan" 
-        },
-        { 
-            q: "It does not matter how slowly you go as long as you do not stop.", 
-            a: "Confucius" 
-        },
-        { 
-            q: "Difficulties in life are intended to make us better, not bitter.", 
-            a: "Dan Reeves" 
-        },
-        { 
-            q: "Go confidently in the direction of your dreams. Live the life you have imagined.", 
-            a: "Henry David Thoreau" 
-        },
-        { 
-            q: "Success is getting what you want. Happiness is wanting what you get.", 
-            a: "Dale Carnegie" 
-        },
-        { 
-            q: "Act as if what you do makes a difference. It does.", 
-            a: "William James" 
-        },
-        { 
-            q: "I am not a product of my circumstances. I am a product of my decisions.", 
-            a: "Stephen R. Covey" 
-        },
-        { 
-            q: "If you’re going through hell, keep going.", 
-            a: "Winston Churchill" 
-        },
-        { 
-            q: "Do what you feel in your heart to be right, for you’ll be criticized anyway.", 
-            a: "Eleanor Roosevelt" 
-        },
-        { 
-            q: "Work hard in silence, let success make the noise.", 
-            a: "Frank Ocean" 
-        },
-        { 
-            q: "The best way to predict the future is to create it.", 
-            a: "Peter Drucker" }
-            ,
-        { 
-            q: "A person who never made a mistake never tried anything new.", 
-            a: "Albert Einstein" 
-        },
-        { 
-            q: "What lies behind us and what lies before us are tiny matters compared to what lies within us.", 
-            a: "Ralph Waldo Emerson" 
-        },
-        { 
-            q: "You only live once, but if you do it right, once is enough.", 
-            a: "Mae West" 
-        },
-        { 
-            q: "Don’t count the days, make the days count.", 
-            a: "Muhammad Ali" 
-        },
-        { 
-            q: "He who has a why to live can bear almost any how.", 
-            a: "Friedrich Nietzsche" 
-        },
-        { 
-            q: "Your time is limited, so don’t waste it living someone else’s life.", 
-            a: "Steve Jobs" 
-        },
-        { 
-            q: "Be yourself; everyone else is already taken.", 
-            a: "Oscar Wilde" 
-        },
-        { 
-            q: "It is not length of life, but depth of life.", 
-            a: "Ralph Waldo Emerson" 
-        },
-        { 
-            q: "The only impossible journey is the one you never begin.", 
-            a: "Tony Robbins" 
-        },
-        { 
-            q: "I have not failed. I've just found 10,000 ways that won't work.", 
-            a: "Thomas Edison" 
-        },
-        { 
-            q: "Failure is simply the opportunity to begin again, this time more intelligently.", 
-            a: "Henry Ford" 
-        },
-        { 
-            q: "A journey of a thousand miles begins with a single step.", 
-            a: "Lao Tzu" 
-        },
-        { 
-            q: "Do what you can, with what you have, where you are.", 
-            a: "Theodore Roosevelt" 
-        },
-        { 
-            q: "Success is how high you bounce when you hit bottom.", 
-            a: "George S. Patton" 
-        },
-        { 
-            q: "Doubt kills more dreams than failure ever will.", 
-            a: "Suzy Kassem" },
-        { 
-            q: "I attribute my success to this: I never gave or took any excuse.", 
-            a: "Florence Nightingale" 
-        },
-        { 
-            q: "Hardships often prepare ordinary people for an extraordinary destiny.", 
-            a: "C.S. Lewis" 
-        },
-        { 
-            q: "Everything you’ve ever wanted is on the other side of fear.", 
-            a: "George Addair" 
-        },
-        { 
-            q: "Live as if you were to die tomorrow. Learn as if you were to live forever.", 
-            a: "Mahatma Gandhi" 
-        },
-        { 
-            q: "Don’t wait. The time will never be just right.", 
-            a: "Napoleon Hill" 
-        }
-    ];
+    const quotes = {
+        randomQuotes: [
+            { q: "Success is not final, failure is not fatal: it is the courage to continue that counts.", a: "Winston Churchill" },
+            { q: "The only limit to our realization of tomorrow is our doubts of today.", a: "Franklin D. Roosevelt" },
+            { q: "Do what you can, with what you have, where you are.", a: "Theodore Roosevelt" },
+            { q: "It always seems impossible until it's done.", a: "Nelson Mandela" },
+            { q: "Believe you can and you're halfway there.", a: "Theodore Roosevelt" },
+            { q: "Act as if what you do makes a difference. It does.", a: "William James" },
+            { q: "Happiness depends upon ourselves.", a: "Aristotle" },
+            { q: "In the middle of every difficulty lies opportunity.", a: "Albert Einstein" },
+            { q: "Keep your face always toward the sunshine, and shadows will fall behind you.", a: "Walt Whitman" },
+            { q: "No one can make you feel inferior without your consent.", a: "Eleanor Roosevelt" },
+            { q: "Do not wait to strike till the iron is hot, but make it hot by striking.", a: "William Butler Yeats" },
+            { q: "You miss 100% of the shots you don’t take.", a: "Wayne Gretzky" },
+            { q: "We become what we think about.", a: "Earl Nightingale" },
+            { q: "Strive not to be a success, but rather to be of value.", a: "Albert Einstein" },
+            { q: "The only way to do great work is to love what you do.", a: "Steve Jobs" },
+            { q: "Opportunities don't happen. You create them.", a: "Chris Grosser" },
+            { q: "Don't watch the clock; do what it does. Keep going.", a: "Sam Levenson" },
+            { q: "Dream big and dare to fail.", a: "Norman Vaughan" },
+            { q: "It does not matter how slowly you go as long as you do not stop.", a: "Confucius" },
+            { q: "Difficulties in life are intended to make us better, not bitter.", a: "Dan Reeves" },
+            { q: "Go confidently in the direction of your dreams. Live the life you have imagined.", a: "Henry David Thoreau" },
+            { q: "Success is getting what you want. Happiness is wanting what you get.", a: "Dale Carnegie" },
+            { q: "Act as if what you do makes a difference. It does.", a: "William James" },
+            { q: "I am not a product of my circumstances. I am a product of my decisions.", a: "Stephen R. Covey" },
+            { q: "If you’re going through hell, keep going.", a: "Winston Churchill" },
+            { q: "Do what you feel in your heart to be right, for you’ll be criticized anyway.", a: "Eleanor Roosevelt" },
+            { q: "Work hard in silence, let success make the noise.", a: "Frank Ocean" },
+            { q: "The best way to predict the future is to create it.", a: "Peter Drucker" },
+            { q: "A person who never made a mistake never tried anything new.", a: "Albert Einstein" },
+            { q: "What lies behind us and what lies before us are tiny matters compared to what lies within us.", a: "Ralph Waldo Emerson" },
+            { q: "You only live once, but if you do it right, once is enough.", a: "Mae West" },
+            { q: "Don’t count the days, make the days count.", a: "Muhammad Ali" },
+            { q: "He who has a why to live can bear almost any how.", a: "Friedrich Nietzsche" },
+            { q: "Your time is limited, so don’t waste it living someone else’s life.", a: "Steve Jobs" },
+            { q: "Be yourself; everyone else is already taken.", a: "Oscar Wilde" },
+            { q: "It is not length of life, but depth of life.", a: "Ralph Waldo Emerson" },
+            { q: "The only impossible journey is the one you never begin.", a: "Tony Robbins" },
+            { q: "I have not failed. I've just found 10,000 ways that won't work.", a: "Thomas Edison" },
+            { q: "Failure is simply the opportunity to begin again, this time more intelligently.", a: "Henry Ford" },
+            { q: "A journey of a thousand miles begins with a single step.", a: "Lao Tzu" },
+            { q: "Do what you can, with what you have, where you are.", a: "Theodore Roosevelt" },
+            { q: "Success is how high you bounce when you hit bottom.", a: "George S. Patton" },
+            { q: "Doubt kills more dreams than failure ever will.", a: "Suzy Kassem" },
+            { q: "I attribute my success to this: I never gave or took any excuse.", a: "Florence Nightingale" },
+            { q: "Hardships often prepare ordinary people for an extraordinary destiny.", a: "C.S. Lewis" },
+            { q: "Everything you’ve ever wanted is on the other side of fear.", a: "George Addair" },
+            { q: "Live as if you were to die tomorrow. Learn as if you were to live forever.", a: "Mahatma Gandhi" },
+            { q: "Don’t wait. The time will never be just right.", a: "Napoleon Hill" }
+        ],
+        blackHistoryQuotes: [
+            { q: "The time is always right to do what is right.", a: "Martin Luther King Jr." },
+            { q: "Hold fast to dreams, for if dreams die, life is a broken-winged bird that cannot fly.", a: "Langston Hughes" },
+            { q: "My humanity is bound up in yours, for we can only be human together.", a: "Desmond Tutu" },
+            { q: "Where there is no struggle, there is no progress.", a: "Frederick Douglass" },
+            { q: "Service to others is the rent you pay for your room here on Earth.", a: "Muhammad Ali" },
+            { q: "I am where I am because of the bridges that I crossed.", a: "Oprah Winfrey" },
+            { q: "Truth is powerful and it prevails.", a: "Sojourner Truth" },
+            { q: "If they don't give you a seat at the table, bring a folding chair.", a: "Shirley Chisholm" },
+            { q: "You must never be fearful about what you are doing when it is right.", a: "Rosa Parks" },
+            { q: "We may encounter many defeats, but we must not be defeated.", a: "Maya Angelou" },
+            { q: "I don't measure a man’s success by how high he climbs, but how high he bounces when he hits bottom.", a: "George S. Patton" },
+            { q: "Bravery is being the only one who knows you’re afraid.", a: "Phyllis Wheatley" },
+            { q: "Champions aren’t made in the gyms. Champions are made from something they have deep inside them—a desire, a dream, a vision.", a: "Muhammad Ali" },
+            { q: "Success is to be measured not so much by the position that one has reached in life as by the obstacles which he has overcome.", a: "Booker T. Washington" },
+            { q: "Power is not given to you. You have to take it.", a: "Beyoncé" },
+            { q: "You don’t make progress by standing on the sidelines, whimpering and complaining. You make progress by implementing ideas.", a: "Shirley Chisholm" },
+            { q: "We have to talk about liberating minds as well as liberating society.", a: "Angela Davis" },
+            { q: "Education is the most powerful weapon which you can use to change the world.", a: "Nelson Mandela" },
+            { q: "Never be limited by other people’s limited imaginations.", a: "Dr. Mae Jemison" },
+            { q: "Have a vision. Be demanding.", a: "Colin Powell" },
+            { q: "A man who stands for nothing will fall for anything.", a: "Malcolm X" },
+            { q: "It is easier to build strong children than to repair broken men.", a: "Frederick Douglass" },
+            { q: "Character, not circumstances, makes the man.", a: "Booker T. Washington" },
+            { q: "Do not bring people in your life who weigh you down. And trust your instincts—good relationships feel good. They feel right.", a: "Oprah Winfrey" },
+            { q: "Define success on your own terms, achieve it by your own rules, and build a life you’re proud to live.", a: "Anne Sweeney" },
+            { q: "You have a right to be involved. You have something important to contribute, and you have to take the risk to contribute it.", a: "Mae Jemison" },
+            { q: "Don’t wait around for other people to be happy for you. Any happiness you get, you’ve got to make yourself.", a: "Alice Walker" },
+            { q: "I had to make my own living and my own opportunity! But I made it!", a: "Madam C.J. Walker" },
+            { q: "Your crown has been bought and paid for. Put it on your head and wear it.", a: "Maya Angelou" },
+            { q: "Life has two rules: Number 1, never quit! Number 2, always remember Rule Number 1.", a: "Duke Ellington" },
+            { q: "I will not have my life narrowed down. I will not bow down to someone else's whim or to someone else's ignorance.", a: "Bell Hooks" },
+            { q: "If you are always trying to be normal, you will never know how amazing you can be.", a: "Maya Angelou" },
+            { q: "I did what my conscience told me to do, and you can’t fail if you do that.", a: "Anita Hill" },
+            { q: "Once we recognize what it is we are feeling, once we recognize we can feel deeply, love deeply, can feel joy, then we will demand that all parts of our lives produce that kind of joy.", a: "Audre Lorde" },
+            { q: "I have discovered in life that there are ways of getting almost anywhere you want to go, if you really want to go.", a: "Langston Hughes" },
+            { q: "I tell young people to reach for the stars. And I can't think of a better high than discovering something that no one knew before.", a: "Dr. Patricia Bath" },
+            { q: "Do not fear mistakes. There are none.", a: "Miles Davis" },
+            { q: "Art is a form of power. It has to be used that way.", a: "Ossie Davis" },
+            { q: "Jazz is the big brother of revolution. Revolution follows it around.", a: "Miles Davis" },
+            { q: "When I stand before God at the end of my life, I would hope that I would not have a single bit of talent left and could say, 'I used everything you gave me.'", a: "Erma Bombeck" },
+            { q: "Struggle is a never-ending process. Freedom is never really won; you earn it and win it in every generation.", a: "Coretta Scott King" },
+            { q: "History, despite its wrenching pain, cannot be unlived, but if faced with courage, need not be lived again.", a: "Maya Angelou" },
+            { q: "I am lucky that whatever fear I have inside me, my desire to win is always stronger.", a: "Serena Williams" },
+            { q: "Surround yourself with only people who are going to lift you higher.", a: "Oprah Winfrey" },
+            { q: "If you want to fly, you have to give up the things that weigh you down.", a: "Toni Morrison" },
+            { q: "We do what we have to do so we can do what we want to do.", a: "James Baldwin" },
+            { q: "I had no idea that history was being made. I was just tired of giving up.", a: "Rosa Parks" },
+            { q: "If everything was perfect, you would never learn and you would never grow.", a: "Beyoncé" },
+            { q: "Excellence is the best deterrent to racism or sexism.", a: "Oprah Winfrey" },
+            { q: "Every great dream begins with a dreamer.", a: "Harriet Tubman" }
+        ],
+        
+};
     
 
     res.status(200).json(quotes);
