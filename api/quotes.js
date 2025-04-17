@@ -31,7 +31,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
             image: "https://upload.wikimedia.org/wikipedia/commons/4/42/FDR_1944_Color_Portrait.jpg",
             q: [
-                "The only limit to our realization of tomorrow is our doubts of today.",
+                "The only limit to our realization of tomorrow is our doubts of today."
             ]
         },
         theodoreR: {
@@ -71,7 +71,7 @@ export default function handler(req, res) {
             q:[
                 "The greatest use of a life is to spend it on something that will outlast it.",
                 "Act as if what you do makes a difference. It does.",
-                "We are like islands in the sea, separate on the surface but connected in the deep.",
+                "We are like islands in the sea, separate on the surface but connected in the deep."
             ]
         },
         aristotle:{
@@ -107,7 +107,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Walt_Whitman",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Walt_Whitman_-_George_Collins_Cox.jpg/640px-Walt_Whitman_-_George_Collins_Cox.jpg",
             q:[
-                "Keep your face always toward the sunshine, and shadows will fall behind you.",
+                "Keep your face always toward the sunshine, and shadows will fall behind you."
             ]
         },
         eleanorR: {
@@ -131,7 +131,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/W._B._Yeats",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/William_Butler_Yeats_by_George_Charles_Beresford.jpg/640px-William_Butler_Yeats_by_George_Charles_Beresford.jpg",
             q: [
-                "Do not wait to strike till the iron is hot, but make it hot by striking.",
+                "Do not wait to strike till the iron is hot, but make it hot by striking."
             ]
         },
         wayneG: {
@@ -142,7 +142,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Wayne_Gretzky",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wgretz_%28croppe1d%29.jpg/640px-Wgretz_%28croppe1d%29.jpg",
             q:[
-                "You miss 100% of the shots you don't take.",
+                "You miss 100% of the shots you don't take."
             ]
         },
         earlN: {
@@ -153,7 +153,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Earl_Nightingale",
             image: "https://www.newtraderu.com/wp-content/uploads/Holly_portrait_of_Earl_Nightingale_cinematic_9a4b5f8f-d375-4e4e-8688-87f051fa9f12.jpg?ezimgfmt=ngcb1/notWebP",
             q:[
-                "We become what we think about.",
+                "We become what we think about."
             ]
         },
         steveJ: {
@@ -165,7 +165,7 @@ export default function handler(req, res) {
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg/1280px-Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg",
             q:[
                 "The only way to do great work is to love what you do.",
-                "Your time is limited, so don't waste it living someone else's life.",
+                "Your time is limited, so don't waste it living someone else's life."
 
             ]
         },
@@ -177,7 +177,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Sam_Levenson",
             image: "https://upload.wikimedia.org/wikipedia/commons/b/b5/Samlevenson.jpg",
             q:[
-                "Don't watch the clock; do what it does. Keep going.",
+                "Don't watch the clock; do what it does. Keep going."
             ]
         },
         normanV: {
@@ -188,7 +188,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Norman_D._Vaughan",
             image: "https://images.findagrave.com/photos/2005/357/12780887_113546708018.jpg?size=photos250",
             q: [
-                "Dream big and dare to fail.",
+                "Dream big and dare to fail."
             ]
         },
         confucius:{
@@ -211,7 +211,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Dan_Reeves",
             image: "https://upload.wikimedia.org/wikipedia/commons/f/f0/Dan_Reeves.JPG",
             q: [
-                "Difficulties in life are intended to make us better, not bitter.",
+                "Difficulties in life are intended to make us better, not bitter."
             ]
         },
         henryT: {
@@ -222,7 +222,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Henry_David_Thoreau",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Benjamin_D._Maxham_-_Henry_David_Thoreau_-_Restored.jpg/1024px-Benjamin_D._Maxham_-_Henry_David_Thoreau_-_Restored.jpg",
             q: [
-               "Go confidently in the direction of your dreams. Live the life you have imagined.",
+               "Go confidently in the direction of your dreams. Live the life you have imagined."
             ]
         },
         daleC: {
@@ -233,7 +233,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Dale_Carnegie",
             image: "https://upload.wikimedia.org/wikipedia/en/0/0c/Dale_Carnegie.jpg",
             q: [
-                "Success is getting what you want. Happiness is wanting what you get.",
+                "Success is getting what you want. Happiness is wanting what you get."
             ]
         },
         stephenC: {
@@ -244,7 +244,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Stephen_Covey",
             image: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Stephen_Covey_174-CD-L05-03-02A-002_%28cropped%29.jpg",
             q: [
-                "I am not a product of my circumstances. I am a product of my decisions.",
+                "I am not a product of my circumstances. I am a product of my decisions."
             ]
         },
         frankO: {
@@ -255,7 +255,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Frank_Ocean",
             image: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Frank_Ocean_2022_Blonded.jpg",
             q: [
-                "Work hard in silence, let success make the noise.",
+                "Work hard in silence, let success make the noise."
             ]
         },
         peterD: {
@@ -266,7 +266,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Peter_Drucker",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Drucker5789.jpg/1024px-Drucker5789.jpg",
             q: [
-                "The best way to predict the future is to create it.",
+                "The best way to predict the future is to create it."
             ]
         },
         ralphE: {
@@ -291,7 +291,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Mae_West",
             image: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Mae_West_LAT.jpg",
             q: [
-                "You only live once, but if you do it right, once is enough.",
+                "You only live once, but if you do it right, once is enough."
             ]
         },
         muhammadA: {
@@ -304,7 +304,7 @@ export default function handler(req, res) {
             q: [
                 "Don't count the days, make the days count.",
                 "Service to others is the rent you pay for your room here on Earth.",
-                "Champions aren't made in the gyms. Champions are made from something they have deep inside them—a desire, a dream, a vision.",
+                "Champions aren't made in the gyms. Champions are made from something they have deep inside them—a desire, a dream, a vision."
             ]
         },
         friedrichN: {
@@ -315,7 +315,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Friedrich_Nietzsche",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/1024px-Nietzsche187a.jpg",
             q: [
-                "He who has a why to live can bear almost any how.",
+                "He who has a why to live can bear almost any how."
             ]
         },
         oscarW: {
@@ -339,7 +339,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Tony_Robbins",
             image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Tony_Robbins.jpg",
             q: [
-                "The only impossible journey is the one you never begin.",
+                "The only impossible journey is the one you never begin."
             ]
         },
         thomasE: {
@@ -350,7 +350,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Thomas_Edison",
             image: "https://upload.wikimedia.org/wikipedia/commons/9/9d/Thomas_Edison2.jpg",
             q: [
-                "I have not failed. I've just found 10,000 ways that won't work.",
+                "I have not failed. I've just found 10,000 ways that won't work."
             ]
         },
         henryF: {
@@ -361,7 +361,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Henry_Ford",
             image: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Henry_Ford_portrait_1915_cropped.png",
             q: [
-                "Failure is simply the opportunity to begin again, this time more intelligently.",
+                "Failure is simply the opportunity to begin again, this time more intelligently."
             ]
         },
         laoT: {
@@ -372,7 +372,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Laozi",
             image: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Zhang_Lu-Laozi_Riding_an_Ox.jpg",
             q: [
-                "A journey of a thousand miles begins with a single step.",
+                "A journey of a thousand miles begins with a single step."
             ]
         },
         georgeP: {
@@ -383,7 +383,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/George_S._Patton",
             image: "https://upload.wikimedia.org/wikipedia/commons/a/a0/General_George_Patton_by_Robert_F._Cranston%2C_Lee_Elkins%2C_and_Harry_Warnecke%2C_1945%2C_color_carbro_print%2C_from_the_National_Portrait_Gallery_-_NPG-NPG_95_404Patton-000002.jpg",
             q: [
-                "Success is how high you bounce when you hit bottom.",
+                "Success is how high you bounce when you hit bottom."
             ]
         },
         suzyK: {
@@ -394,8 +394,7 @@ export default function handler(req, res) {
             wiki: "https://www.imdb.com/name/nm5835419/bio/",
             image: "https://4.bp.blogspot.com/-5_Z5wqLinno/Ww_75VBwDQI/AAAAAAAAL9A/-UCxQ-9sf18HHsvy-PhWsWHWUSFcuoTqgCLcBGAs/s1600/Suzy-Kassem-2013.png",
             q: [
-                "Doubt kills more dreams than failure ever will.",
-
+                "Doubt kills more dreams than failure ever will."
             ]
         },
         florenceN: {
@@ -406,7 +405,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Florence_Nightingale",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Florence_Nightingale_%28H_Hering_NPG_x82368%29.jpg/1024px-Florence_Nightingale_%28H_Hering_NPG_x82368%29.jpg",
             q: [
-                "I attribute my success to this: I never gave or took any excuse.",
+                "I attribute my success to this: I never gave or took any excuse."
             ]
         },
         cSLewis: {
@@ -418,7 +417,7 @@ export default function handler(req, res) {
             image: "https://upload.wikimedia.org/wikipedia/en/1/1e/C.s.lewis3.JPG",
             q: [
                 "Hardships often prepare ordinary people for an extraordinary destiny.",
-                "You are never too old to set another goal or to dream a new dream.",
+                "You are never too old to set another goal or to dream a new dream."
             ]
         },
         mahatmaG: {
@@ -429,7 +428,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
             image: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg",
             q: [
-                "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+                "Live as if you were to die tomorrow. Learn as if you were to live forever."
             ]
         },
         napoleonH: {
@@ -440,7 +439,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Napoleon_Hill",
             image: "https://upload.wikimedia.org/wikipedia/commons/7/75/Napoleon_Hill_headshot.jpg",
             q: [
-                "Don't wait. The time will never be just right.",
+                "Don't wait. The time will never be just right."
             ]
         },
         martinK: {
@@ -463,7 +462,7 @@ export default function handler(req, res) {
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Langston_Hughes_by_Carl_Van_Vechten_%28cropped%29.jpg/800px-Langston_Hughes_by_Carl_Van_Vechten_%28cropped%29.jpg",
             q: [
                 "Hold fast to dreams, for if dreams die, life is a broken-winged bird that cannot fly.",
-                "I have discovered in life that there are ways of getting almost anywhere you want to go, if you really want to go.",
+                "I have discovered in life that there are ways of getting almost anywhere you want to go, if you really want to go."
             ]
         },
         desmondT: {
@@ -474,7 +473,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Desmond_Tutu",
             image: "https://upload.wikimedia.org/wikipedia/commons/e/e4/Archbishop-Tutu-medium.jpg",
             q: [
-                "My humanity is bound up in yours, for we can only be human together.",
+                "My humanity is bound up in yours, for we can only be human together."
             ]
         },
         frederickD: {
@@ -486,7 +485,7 @@ export default function handler(req, res) {
             image: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Frederick_Douglass_%28circa_1879%29_%28cropped%29.jpg",
             q: [
                 "If there is no struggle, there is no progress.",
-                "It is easier to build strong children than to repair broken men.",
+                "It is easier to build strong children than to repair broken men."
             ]
         },
         oprahW: {
@@ -511,7 +510,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Sojourner_Truth",
             image: "https://upload.wikimedia.org/wikipedia/commons/5/54/Sojourner_Truth%2C_1870_%28cropped%2C_restored%29.jpg",
             q: [
-                "Truth is powerful and it prevails.",
+                "Truth is powerful and it prevails."
             ]
         },
         shirleyC : {
@@ -560,7 +559,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Phyllis_Wheatley",
             image: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Phillis_Wheatley_frontispiece.jpg",
             q: [
-                "Bravery is being the only one who knows you're afraid.",
+                "Bravery is being the only one who knows you're afraid."
             ]
         },
         bookerTW: {
@@ -572,7 +571,7 @@ export default function handler(req, res) {
             image: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Booker_T_Washington_retouched_flattened-crop.jpg",
             q: [
                 "Success is to be measured not so much by the position that one has reached in life as by the obstacles which he has overcome.",
-                "Character, not circumstances, makes the man.",
+                "Character, not circumstances, makes the man."
             ]
         },
         beyonce: {
@@ -584,7 +583,7 @@ export default function handler(req, res) {
             image: "https://www.rollingstone.com/wp-content/uploads/2019/04/beyonce-adidas.jpg",
             q: [
                 "Power is not given to you. You have to take it.",
-                "If everything was perfect, you would never learn and you would never grow.",
+                "If everything was perfect, you would never learn and you would never grow."
             ]
         },
         angelaD: {
@@ -618,7 +617,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Colin_Powell",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Colin_Powell_official_Secretary_of_State_photo.jpg/1024px-Colin_Powell_official_Secretary_of_State_photo.jpg",
             q: [
-                "Have a vision. Be demanding.",
+                "Have a vision. Be demanding."
             ]
         },
         frankS: {
@@ -630,7 +629,7 @@ export default function handler(req, res) {
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Frank_Sinatra_%281957_studio_portrait_close-up%29.jpg/1024px-Frank_Sinatra_%281957_studio_portrait_close-up%29.jpg",
             q: [
                 "The best revenge is massive success.",
-                "Alcohol may be man's worst enemy, but the Bible says love your enemy.",
+                "Alcohol may be man's worst enemy, but the Bible says love your enemy."
             ]
         },
         malcolmX: {
@@ -641,7 +640,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Malcolm_X",
             image: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Malcolm_X_NYWTS_4.jpg",
             q: [
-                "A man who stands for nothing will fall for anything.",
+                "A man who stands for nothing will fall for anything."
             ]
         },
         anneS: {
@@ -674,7 +673,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Madam_C.J._Walker",
             image: "https://upload.wikimedia.org/wikipedia/commons/9/98/Madam_CJ_Walker_face_circa_1914.jpg",
             q: [
-                "I had to make my own living and my own opportunity! But I made it!",
+                "I had to make my own living and my own opportunity! But I made it!"
             ]
         },
         dukeE: {
@@ -718,7 +717,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Audre_Lorde",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Audre_Lorde.jpg/800px-Audre_Lorde.jpg",
             q: [
-
+                "Your silence will not protect you."
             ]
         },
         patriciaB: {
@@ -763,7 +762,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Erma_Bombeck",
             image: "https://upload.wikimedia.org/wikipedia/en/e/e6/Erma_Bombeck.jpg",
             q: [
-                "When I stand before God at the end of my life, I would hope that I would not have a single bit of talent left and could say, 'I used everything you gave me.'",
+                "When I stand before God at the end of my life, I would hope that I would not have a single bit of talent left and could say, 'I used everything you gave me.'"
             ]
         },
         corettaK: {
@@ -786,7 +785,7 @@ export default function handler(req, res) {
             image: "https://cdn.britannica.com/29/234629-138-240EAB9D/who-is-Serena-Williams.jpg",
             q: [
                 "I am lucky that whatever fear I have inside me, my desire to win is always stronger.",
-                "A champion is defined not by their wins but by how they can recover when they fall.",
+                "A champion is defined not by their wins but by how they can recover when they fall."
             ]
 
         },
@@ -831,7 +830,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Michael_Jordan",
             image: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Michael_Jordan_in_2014.jpg",
             q: [
-                "You must expect great things of yourself before you can do them.",
+                "You must expect great things of yourself before you can do them."
             ]
         },
         markT: {
@@ -854,7 +853,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Dalai_Lama",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Tenzin_Gyatso_-_14th_Dalai_Lama_%282012%29.jpg/1024px-Tenzin_Gyatso_-_14th_Dalai_Lama_%282012%29.jpg",
             q: [
-                "Happiness is not something ready-made. It comes from your own actions.",
+                "Happiness is not something ready-made. It comes from your own actions."
             ]
 
         },
@@ -866,7 +865,7 @@ export default function handler(req, res) {
             wiki: "https://www.imdb.com/name/nm4309739/bio/",
             image: "https://imagebox.cz.osobnosti.cz/foto/jamie-239/jamie-239.jpg?1513185618.0",
             q: [
-                "Limitations live only in our minds. But if we use our imaginations, our possibilities become limitless.",
+                "Limitations live only in our minds. But if we use our imaginations, our possibilities become limitless."
             ]
         },
         pabloP: {
@@ -937,7 +936,7 @@ export default function handler(req, res) {
                 "The early bird might get the worm, but the second mouse gets the cheese.",
                 "If at first you don't succeed, then skydiving definitely isn't for you.",
                 "You can't have everything… where would you put it?",
-                "I'm writing a book. I've got the page numbers done.",
+                "I'm writing a book. I've got the page numbers done."
             ]
         },
         willF: {
@@ -948,7 +947,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Will_Ferrell",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Will_Ferrell_at_the_2024_Toronto_International_Film_Festival_5_%28cropped%29.jpg/800px-Will_Ferrell_at_the_2024_Toronto_International_Film_Festival_5_%28cropped%29.jpg",
             q: [
-                "Before you marry a person, you should first make them use a computer with slow internet to see who they really are.",
+                "Before you marry a person, you should first make them use a computer with slow internet to see who they really are."
             ]
         },
         robinW: {
@@ -1036,7 +1035,7 @@ export default function handler(req, res) {
             wiki: "Not Available",
             image: "https://th.bing.com/th/id/R.54bbc1785f6a06e0691dc5de1293efe8?rik=UaN4zHtMAf2O5g&riu=http%3a%2f%2fwww.dailymoss.com%2fwp-content%2fuploads%2f2018%2f01%2fIMG-9491.jpg&ehk=1CqpJyjplT1zBrA4GRft7VdFrhRQyNBBlX4epH1MCGg%3d&risl=&pid=ImgRaw&r=0",
             q: [
-                "The trouble with quotes on the internet is that it's difficult to determine whether or not they are genuine.",
+                "The trouble with quotes on the internet is that it's difficult to determine whether or not they are genuine."
             ]
         },
         abrahamL: {
@@ -1047,7 +1046,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Abraham_Lincoln",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg/1024px-Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg",
             q: [
-                "If I were two-faced, would I be wearing this one?",
+                "If I were two-faced, would I be wearing this one?"
             ]
         },
         elbertH: {
@@ -1069,7 +1068,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Joe_Girard",
             image: "https://i1.wp.com/www.konteudos.com.br/blog/empreendedorismo/wp-content/uploads/2019/04/Joe-Girard.jpg?fit=600%2C600&ssl=1",
             q: [
-                "The elevator to success is out of order. You'll have to use the stairs… one step at a time.",
+                "The elevator to success is out of order. You'll have to use the stairs… one step at a time."
             ]
         },
         jackieM:{
@@ -1080,7 +1079,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Jackie_Mason",
             image: "https://upload.wikimedia.org/wikipedia/commons/2/20/JackieMasonOct06.jpg",
             q: [
-                "I have enough money to last me the rest of my life… unless I buy something.",
+                "I have enough money to last me the rest of my life… unless I buy something."
             ]
         },
         jimC: {
@@ -1091,7 +1090,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Jim_Carrey",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Jim_Carrey_2020_cropped.jpg/1024px-Jim_Carrey_2020_cropped.jpg",
             q: [
-                "Behind every great man is a woman rolling her eyes.",
+                "Behind every great man is a woman rolling her eyes."
             ]
         },
         ronW: {
@@ -1102,7 +1101,7 @@ export default function handler(req, res) {
             wiki: "https://en.wikipedia.org/wiki/Ron_White",
             image: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Ron_White01.jpg",
             q: [
-                "If life gives you lemons, make lemonade. Then find someone whose life gave them vodka, and have a party.",
+                "If life gives you lemons, make lemonade. Then find someone whose life gave them vodka, and have a party."
             ]
         },
         billM: {
@@ -1160,7 +1159,7 @@ export default function handler(req, res) {
                 "Teamwork is essential—it allows you to blame someone else.",
                 "Some people are like clouds. When they disappear, it's a beautiful day.",
                 "My bed is a magical place where I suddenly remember everything I forgot to do.",
-                "Don't worry if plan A fails, there are 25 more letters in the alphabet.",
+                "Don't worry if plan A fails, there are 25 more letters in the alphabet."
             ]
         },
         anonymousAffirmation: {
@@ -1221,7 +1220,7 @@ export default function handler(req, res) {
                 "I trust the process of life.",
                 "I release all fears and embrace the present moment.",
                 "I am proud of who I am becoming.",
-                "My happiness is my choice.",
+                "My happiness is my choice."
                 
             ]
         }
