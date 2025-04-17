@@ -1653,7 +1653,7 @@ export default function handler(req, res) {
             { q: authors.elbertH.q[0], a: authors.elbertH.a, i: authors.elbertH.i, link: authors.elbertH.wiki, image: authors.elbertH.image },
             { q: authors.joeG.q[0], a: authors.joeG.a, i: authors.joeG.i, link: authors.joeG.wiki, image: authors.joeG.image },
             { q: authors.jackieM.q[0], a: authors.jackieM.a, i: authors.jackieM.i, link: authors.jackieM.wiki, image: authors.jackieM.image },
-            { q: jimC.q[0], a: authors.jimC.a, i: authors.jimC.i, link: authors.jimC.wiki, image: authors.jimC.image },
+            { q: authors.jimC.q[0], a: authors.jimC.a, i: authors.jimC.i, link: authors.jimC.wiki, image: authors.jimC.image },
             { q: authors.jimC.q[0], a: authors.jimC.a, i: authors.jimC.i, link: authors.jimC.wiki, image: authors.jimC.image },
             { q: authors.ronW.q[0], a: authors.ronW.a, i: authors.ronW.i, link: authors.ronW.wiki, image: authors.ronW.image },
             { q: authors.billM.q[0], a: authors.billM.a, i: authors.billM.i, link: authors.billM.wiki, image: authors.billM.image },
