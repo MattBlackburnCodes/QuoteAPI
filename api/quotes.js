@@ -12,7 +12,7 @@ export default function handler(req, res) {
     const authors = {
         winstonC: {
             a: "Winston Churchill",
-            i: `    Winston Churchill was the Prime Minister of the United Kingdom during some of its darkest and most triumphant times, particularly during World War II. Renowned for his rousing speeches, unyielding leadership, and indomitable spirit, Churchill became a symbol of British resilience. Beyond politics, he was also a Nobel Prize-winning writer and a skilled painter, leaving behind a legacy of both statesmanship and creativity.`,
+            i: `Winston Churchill was the Prime Minister of the United Kingdom during some of its darkest and most triumphant times, particularly during World War II. Renowned for his rousing speeches, unyielding leadership, and indomitable spirit, Churchill became a symbol of British resilience. Beyond politics, he was also a Nobel Prize-winning writer and a skilled painter, leaving behind a legacy of both statesmanship and creativity.`,
             wiki: "https://en.wikipedia.org/wiki/Winston_Churchill",
             image: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Sir_Winston_Churchill_-_19086236948.jpg",
             q: [
@@ -23,9 +23,7 @@ export default function handler(req, res) {
         },
         franklinR: {
             a: "Franklin D. Roosevelt",
-            i: `Franklin D. Roosevelt was the 32nd President of the United States, serving from 1933 until his death in 1945. 
-                He led the nation through the Great Depression and World War II, implementing the New Deal to provide relief and recovery. 
-                His leadership style and ability to communicate with the public through radio broadcasts earned him a lasting legacy as one of America's most influential presidents.`,
+            i: `Franklin D. Roosevelt was the 32nd President of the United States, serving from 1933 until his death in 1945. He led the nation through the Great Depression and World War II, implementing the New Deal to provide relief and recovery. His leadership style and ability to communicate with the public through radio broadcasts earned him a lasting legacy as one of America's most influential presidents.`,
             wiki: "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
             image: "https://upload.wikimedia.org/wikipedia/commons/4/42/FDR_1944_Color_Portrait.jpg",
             q: [
@@ -34,9 +32,7 @@ export default function handler(req, res) {
         },
         theodoreR: {
             a: "Theodore Roosevelt",
-            i: `Theodore Roosevelt was the 26th President of the United States, known for his progressive policies and vigorous approach to leadership. 
-                He championed conservation, established national parks, and was a key figure in the Progressive Era. 
-                A larger-than-life personality, Roosevelt was also an authors, soldier, and naturalist, leaving a profound impact on American history.`,
+            i: `Theodore Roosevelt was the 26th President of the United States, known for his progressive policies and vigorous approach to leadership. He championed conservation, established national parks, and was a key figure in the Progressive Era. A larger-than-life personality, Roosevelt was also an authors, soldier, and naturalist, leaving a profound impact on American history.`,
             wiki: "https://en.wikipedia.org/wiki/Theodore_Roosevelt",
             image: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Theodore_Rooseveltnewtry.jpg",
             q:[
@@ -47,10 +43,7 @@ export default function handler(req, res) {
         },
         nelsonM: {
             a: "Nelson Mandela",
-            i: `Nelson Mandela was a South African anti-apartheid revolutionary who became the first Black president of South Africa. 
-                He spent 27 years in prison for his fight against racial oppression and emerged as a global symbol of peace, forgiveness, and resilience. 
-                Mandela’s leadership helped dismantle apartheid and laid the foundation for a more inclusive, democratic South Africa. 
-                His legacy continues to inspire movements for justice and equality worldwide.`,
+            i: `Nelson Mandela was a South African anti-apartheid revolutionary who became the first Black president of South Africa. He spent 27 years in prison for his fight against racial oppression and emerged as a global symbol of peace, forgiveness, and resilience. Mandela’s leadership helped dismantle apartheid and laid the foundation for a more inclusive, democratic South Africa. His legacy continues to inspire movements for justice and equality worldwide.`,
             wiki: "https://en.wikipedia.org/wiki/Nelson_Mandela",
             image: "https://upload.wikimedia.org/wikipedia/commons/0/02/Nelson_Mandela_1994.jpg",
             q:[
@@ -61,9 +54,7 @@ export default function handler(req, res) {
         },
         williamJ: {
             a: "William James",
-            i: `William James was an American philosopher and psychologist, widely regarded as the father of American psychology. 
-                He was a leading thinker in the philosophy of pragmatism and functional psychology, emphasizing the practical application of ideas. 
-                His works, including "The Principles of Psychology," have had a lasting impact on both psychology and philosophy.`,
+            i: `William James was an American philosopher and psychologist, widely regarded as the father of American psychology. He was a leading thinker in the philosophy of pragmatism and functional psychology, emphasizing the practical application of ideas. His works, including "The Principles of Psychology," have had a lasting impact on both psychology and philosophy.`,
             wiki: "https://en.wikipedia.org/wiki/William_James",
             image: "https://upload.wikimedia.org/wikipedia/commons/2/22/Wm_james.jpg",
             q:[
@@ -74,9 +65,7 @@ export default function handler(req, res) {
         },
         aristotle:{
             a: "Aristotle",
-            i: `Aristotle was a Greek philosopher and student of Plato. 
-                He made lasting contributions to philosophy, science, and logic that still influence modern thinking.
-                Aristotle also tutored Alexander the Great and helped shape the foundation of Western knowledge.`,
+            i: `Aristotle was a Greek philosopher and student of Plato. He made lasting contributions to philosophy, science, and logic that still influence modern thinking. Aristotle also tutored Alexander the Great and helped shape the foundation of Western knowledge.`,
             wiki: "https://en.wikipedia.org/wiki/Aristotle",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/640px-Aristotle_Altemps_Inv8575.jpg",
             q: [
@@ -85,9 +74,7 @@ export default function handler(req, res) {
         },
         albertE: {
             a: "Albert Einstein",
-            i: `Albert Einstein was a German-born theoretical physicist best known for developing the theory of relativity, one of the two pillars of modern physics. 
-                His equation, E = mc², became one of the most famous formulas in science. 
-                Beyond his groundbreaking work, Einstein was also a passionate advocate for peace, civil rights, and intellectual freedom.`,
+            i: `Albert Einstein was a German-born theoretical physicist best known for developing the theory of relativity, one of the two pillars of modern physics. His equation, E = mc², became one of the most famous formulas in science. Beyond his groundbreaking work, Einstein was also a passionate advocate for peace, civil rights, and intellectual freedom.`,
             wiki: "https://en.wikipedia.org/wiki/Albert_Einstein",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/640px-Albert_Einstein_Head.jpg",
             q: [
@@ -99,9 +86,7 @@ export default function handler(req, res) {
         },
         waltW: {
             a: "Walt Whitman",
-            i: `Walt Whitman was a groundbreaking American poet and essayist best known for his collection Leaves of Grass. 
-                Often called the father of free verse, he celebrated individuality, nature, democracy, and the human spirit with bold, lyrical language. 
-                His work laid the foundation for modern American poetry and continues to inspire readers with its passion and inclusivity.`,
+            i: `Walt Whitman was a groundbreaking American poet and essayist best known for his collection Leaves of Grass. Often called the father of free verse, he celebrated individuality, nature, democracy, and the human spirit with bold, lyrical language. His work laid the foundation for modern American poetry and continues to inspire readers with its passion and inclusivity.`,
             wiki: "https://en.wikipedia.org/wiki/Walt_Whitman",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Walt_Whitman_-_George_Collins_Cox.jpg/640px-Walt_Whitman_-_George_Collins_Cox.jpg",
             q:[
@@ -110,9 +95,7 @@ export default function handler(req, res) {
         },
         eleanorR: {
             a: "Eleanor Roosevelt",
-            i: `Eleanor Roosevelt was a transformative First Lady of the United States, diplomat, and human rights advocate. 
-                She redefined the role of First Lady by actively engaging in politics, championing civil rights, and promoting social justice. 
-                Her legacy endures through her tireless advocacy for equality and her role in drafting the Universal Declaration of Human Rights.`,
+            i: `Eleanor Roosevelt was a transformative First Lady of the United States, diplomat, and human rights advocate. She redefined the role of First Lady by actively engaging in politics, championing civil rights, and promoting social justice. Her legacy endures through her tireless advocacy for equality and her role in drafting the Universal Declaration of Human Rights.`,
             wiki: "https://en.wikipedia.org/wiki/Eleanor_Roosevelt",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Eleanor_Roosevelt_portrait_1933.jpg/640px-Eleanor_Roosevelt_portrait_1933.jpg",
             q:[
@@ -123,9 +106,7 @@ export default function handler(req, res) {
         },
         williamY: {
             a: "William Butler Yeats",
-            i: `William Butler Yeats was an Irish poet, dramatist, and one of the foremost figures of 20th-century literature. 
-                A co-founder of the Abbey Theatre, Yeats played a significant role in the Irish Literary Revival. 
-                His work blends mysticism, folklore, and personal reflection, earning him the Nobel Prize in Literature in 1923.`,
+            i: `William Butler Yeats was an Irish poet, dramatist, and one of the foremost figures of 20th-century literature. A co-founder of the Abbey Theatre, Yeats played a significant role in the Irish Literary Revival. His work blends mysticism, folklore, and personal reflection, earning him the Nobel Prize in Literature in 1923.`,
             wiki: "https://en.wikipedia.org/wiki/W._B._Yeats",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/William_Butler_Yeats_by_George_Charles_Beresford.jpg/640px-William_Butler_Yeats_by_George_Charles_Beresford.jpg",
             q: [
@@ -134,9 +115,7 @@ export default function handler(req, res) {
         },
         wayneG: {
             a: "Wayne Gretzky",
-            i: `Wayne Gretzky is widely regarded as the greatest hockey player of all time. 
-                Known as “The Great One,” he holds numerous NHL records, including the most goals and assists in league history. 
-                Gretzky's unmatched vision, skill, and leadership revolutionized the game and inspired generations of athletes across all sports.`,
+            i: `Wayne Gretzky is widely regarded as the greatest hockey player of all time. Known as “The Great One,” he holds numerous NHL records, including the most goals and assists in league history. Gretzky's unmatched vision, skill, and leadership revolutionized the game and inspired generations of athletes across all sports.`,
             wiki: "https://en.wikipedia.org/wiki/Wayne_Gretzky",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wgretz_%28croppe1d%29.jpg/640px-Wgretz_%28croppe1d%29.jpg",
             q:[
@@ -145,9 +124,7 @@ export default function handler(req, res) {
         },
         earlN: {
             a: "Earl Nightingale",
-            i: `Earl Nightingale was a radio speaker and author, widely recognized as one of the pioneers of personal development and motivational speaking. 
-                His famous recording "The Strangest Secret" inspired millions to pursue their dreams and achieve success. 
-                Nightingale's teachings emphasized the power of positive thinking, goal setting, and self-improvement.`,
+            i: `Earl Nightingale was a radio speaker and author, widely recognized as one of the pioneers of personal development and motivational speaking. His famous recording "The Strangest Secret" inspired millions to pursue their dreams and achieve success. Nightingale's teachings emphasized the power of positive thinking, goal setting, and self-improvement.`,
             wiki: "https://en.wikipedia.org/wiki/Earl_Nightingale",
             image: "https://www.newtraderu.com/wp-content/uploads/Holly_portrait_of_Earl_Nightingale_cinematic_9a4b5f8f-d375-4e4e-8688-87f051fa9f12.jpg?ezimgfmt=ngcb1/notWebP",
             q:[
@@ -156,9 +133,7 @@ export default function handler(req, res) {
         },
         steveJ: {
             a: "Steve Jobs",
-            i: `Steve Jobs was the co-founder of Apple Inc., a visionary entrepreneur, and a pioneer in personal computing. 
-                Known for his innovative spirit and design sensibility, Jobs played a crucial role in revolutionizing technology with products like the iPhone, iPad, and MacBook. 
-                His legacy continues to influence the tech industry and inspire creativity worldwide.`,
+            i: `Steve Jobs was the co-founder of Apple Inc., a visionary entrepreneur, and a pioneer in personal computing. Known for his innovative spirit and design sensibility, Jobs played a crucial role in revolutionizing technology with products like the iPhone, iPad, and MacBook. His legacy continues to influence the tech industry and inspire creativity worldwide.`,
             wiki: "https://en.wikipedia.org/wiki/Steve_Jobs",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg/1280px-Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg",
             q:[
@@ -169,9 +144,7 @@ export default function handler(req, res) {
         },
         samL: {
             a: "Sam Levenson",
-            i: `Sam Levenson was an American humorist, writer, and television host known for his wit and wisdom. 
-                He gained fame as a television personality and author, sharing humorous anecdotes and life lessons. 
-                Levenson's quotes often reflect his unique perspective on life, blending humor with profound insights.`,
+            i: `Sam Levenson was an American humorist, writer, and television host known for his wit and wisdom. He gained fame as a television personality and author, sharing humorous anecdotes and life lessons. Levenson's quotes often reflect his unique perspective on life, blending humor with profound insights.`,
             wiki: "https://en.wikipedia.org/wiki/Sam_Levenson",
             image: "https://upload.wikimedia.org/wikipedia/commons/b/b5/Samlevenson.jpg",
             q:[
@@ -180,9 +153,7 @@ export default function handler(req, res) {
         },
         normanV: {
             a: "Norman Vaughan",
-            i: `Norman Vaughan was an American dog musher and explorer who inspired many with his daring expeditions. 
-                He is best known for his adventures in Antarctica and his determination to reach the South Pole. 
-                Vaughan's spirit of adventure and resilience continues to motivate explorers and adventurers today.`,
+            i: `Norman Vaughan was an American dog musher and explorer who inspired many with his daring expeditions. He is best known for his adventures in Antarctica and his determination to reach the South Pole. Vaughan's spirit of adventure and resilience continues to motivate explorers and adventurers today.`,
             wiki: "https://en.wikipedia.org/wiki/Norman_D._Vaughan",
             image: "https://images.findagrave.com/photos/2005/357/12780887_113546708018.jpg?size=photos250",
             q: [
@@ -191,9 +162,7 @@ export default function handler(req, res) {
         },
         confucius:{
             a: "Confucius",
-            i: `Confucius was a Chinese philosopher and teacher whose thoughts laid the foundation for much of East Asian culture and philosophy. 
-                Living around 500 BCE, he emphasized morality, proper social relationships, justice, and education. 
-                His teachings, compiled into the Analects, continue to influence ethics and personal conduct around the world today.`,
+            i: `Confucius was a Chinese philosopher and teacher whose thoughts laid the foundation for much of East Asian culture and philosophy. Living around 500 BCE, he emphasized morality, proper social relationships, justice, and education. His teachings, compiled into the Analects, continue to influence ethics and personal conduct around the world today.`,
             wiki: "https://en.wikipedia.org/wiki/Confucius",
             image: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Cropped_version_of_Confucius_Portrait%2C_Kongzi_%28Confucius%29_Family_Mansion%2C_Qufu_%2813044335945%29.jpg",
             q: [
@@ -203,9 +172,7 @@ export default function handler(req, res) {
         },
         danR: {
             a: "Dan Reeves",
-            i: `Dan Reeves was an American football player and coach known for his contributions to the NFL. 
-                He played as a running back and later became a successful head coach, leading teams like the Denver Broncos and Atlanta Falcons. 
-                Reeves is remembered for his strategic mind and leadership on and off the field.`,
+            i: `Dan Reeves was an American football player and coach known for his contributions to the NFL. He played as a running back and later became a successful head coach, leading teams like the Denver Broncos and Atlanta Falcons. Reeves is remembered for his strategic mind and leadership on and off the field.`,
             wiki: "https://en.wikipedia.org/wiki/Dan_Reeves",
             image: "https://upload.wikimedia.org/wikipedia/commons/f/f0/Dan_Reeves.JPG",
             q: [
@@ -214,9 +181,7 @@ export default function handler(req, res) {
         },
         henryT: {
             a: "Henry David Thoreau",
-            i: `Henry David Thoreau was an American essayist, poet, and philosopher known for his transcendentalist beliefs. 
-                His most famous work, "Walden," reflects on simple living in natural surroundings and critiques materialism. 
-                Thoreau's writings continue to inspire environmental movements and discussions on civil disobedience.`,
+            i: `Henry David Thoreau was an American essayist, poet, and philosopher known for his transcendentalist beliefs. His most famous work, "Walden," reflects on simple living in natural surroundings and critiques materialism. Thoreau's writings continue to inspire environmental movements and discussions on civil disobedience.`,
             wiki: "https://en.wikipedia.org/wiki/Henry_David_Thoreau",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Benjamin_D._Maxham_-_Henry_David_Thoreau_-_Restored.jpg/1024px-Benjamin_D._Maxham_-_Henry_David_Thoreau_-_Restored.jpg",
             q: [
@@ -225,9 +190,7 @@ export default function handler(req, res) {
         },
         daleC: {
             a: "Dale Carnegie",
-            i: `Dale Carnegie was an American writer and lecturer known for his self-improvement and interpersonal skills courses. 
-                His book "How to Win Friends and Influence People" remains a classic in personal development literature. 
-                Carnegie's teachings emphasize the importance of communication, empathy, and building positive relationships.`,
+            i: `Dale Carnegie was an American writer and lecturer known for his self-improvement and interpersonal skills courses. His book "How to Win Friends and Influence People" remains a classic in personal development literature. Carnegie's teachings emphasize the importance of communication, empathy, and building positive relationships.`,
             wiki: "https://en.wikipedia.org/wiki/Dale_Carnegie",
             image: "https://upload.wikimedia.org/wikipedia/en/0/0c/Dale_Carnegie.jpg",
             q: [
@@ -236,9 +199,7 @@ export default function handler(req, res) {
         },
         stephenC: {
             a: "Stephen Covey",
-            i: `Stephen Covey was an American educator, author, and businessman best known for his book "The 7 Habits of Highly Effective People." 
-                His principles of personal and professional effectiveness have influenced millions worldwide. 
-                Covey's teachings focus on character ethics, proactive behavior, and the importance of aligning actions with values.`,
+            i: `Stephen Covey was an American educator, author, and businessman best known for his book "The 7 Habits of Highly Effective People." His principles of personal and professional effectiveness have influenced millions worldwide. Covey's teachings focus on character ethics, proactive behavior, and the importance of aligning actions with values.`,
             wiki: "https://en.wikipedia.org/wiki/Stephen_Covey",
             image: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Stephen_Covey_174-CD-L05-03-02A-002_%28cropped%29.jpg",
             q: [
@@ -247,9 +208,7 @@ export default function handler(req, res) {
         },
         frankO: {
             a: "Frank Ocean",
-            i: `Frank Ocean is an American singer, songwriter, and record producer known for his unique blend of R&B, hip-hop, and pop. 
-                His critically acclaimed albums, including "Channel Orange" and "Blonde," showcase his introspective lyrics and innovative sound. 
-                Ocean's artistry has earned him numerous awards and a dedicated fanbase.`,
+            i: `Frank Ocean is an American singer, songwriter, and record producer known for his unique blend of R&B, hip-hop, and pop. His critically acclaimed albums, including "Channel Orange" and "Blonde," showcase his introspective lyrics and innovative sound. Ocean's artistry has earned him numerous awards and a dedicated fanbase.`,
             wiki: "https://en.wikipedia.org/wiki/Frank_Ocean",
             image: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Frank_Ocean_2022_Blonded.jpg",
             q: [
@@ -258,9 +217,7 @@ export default function handler(req, res) {
         },
         peterD: {
             a: "Peter Drucker",
-            i: `Peter Drucker was an Austrian-American management consultant, educator, and author, known as the father of modern management. 
-                His writings on management theory and practice have shaped the way businesses operate today. 
-                Drucker's insights into organizational behavior, innovation, and leadership continue to influence managers and leaders worldwide.`,
+            i: `Peter Drucker was an Austrian-American management consultant, educator, and author, known as the father of modern management. His writings on management theory and practice have shaped the way businesses operate today. Drucker's insights into organizational behavior, innovation, and leadership continue to influence managers and leaders worldwide.`,
             wiki: "https://en.wikipedia.org/wiki/Peter_Drucker",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Drucker5789.jpg/1024px-Drucker5789.jpg",
             q: [
@@ -269,9 +226,7 @@ export default function handler(req, res) {
         },
         ralphE: {
             a: "Ralph Waldo Emerson",
-            i: `Ralph Waldo Emerson was an American essayist, lecturer, philosopher, and poet who led the Transcendentalist movement of the mid-19th century. 
-                He emphasized individuality, self-reliance, and the inherent goodness of people and nature. 
-                Emerson's essays and speeches inspired generations of thinkers and writers.`,
+            i: `Ralph Waldo Emerson was an American essayist, lecturer, philosopher, and poet who led the Transcendentalist movement of the mid-19th century. He emphasized individuality, self-reliance, and the inherent goodness of people and nature. Emerson's essays and speeches inspired generations of thinkers and writers.`,
             wiki: "https://en.wikipedia.org/wiki/Ralph_Waldo_Emerson",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Ralph_Waldo_Emerson_by_Josiah_Johnson_Hawes_1857.jpg/1024px-Ralph_Waldo_Emerson_by_Josiah_Johnson_Hawes_1857.jpg",
             q: [
@@ -283,9 +238,7 @@ export default function handler(req, res) {
         },
         maeW: {
             a: "Mae West",
-            i: `Mae West was an American actress, singer, and playwright known for her bold wit, sultry style, and trailblazing presence in early Hollywood. 
-                Rising to fame in the 1930s, she challenged social norms with her provocative humor and unfiltered confidence. 
-                West became a cultural icon, remembered for her sharp one-liners and fearless approach to female empowerment in entertainment.`,
+            i: `Mae West was an American actress, singer, and playwright known for her bold wit, sultry style, and trailblazing presence in early Hollywood. Rising to fame in the 1930s, she challenged social norms with her provocative humor and unfiltered confidence. West became a cultural icon, remembered for her sharp one-liners and fearless approach to female empowerment in entertainment.`,
             wiki: "https://en.wikipedia.org/wiki/Mae_West",
             image: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Mae_West_LAT.jpg",
             q: [
@@ -294,9 +247,7 @@ export default function handler(req, res) {
         },
         muhammadA: {
             a: "Muhammad Ali",
-            i: `Muhammad Ali was an American professional boxer and cultural icon, widely regarded as one of the greatest athletes of all time. 
-                Known for his charisma, activism, and boxing prowess, Ali became a symbol of resistance against racial injustice and war. 
-                His legacy extends beyond the ring, inspiring generations with his advocacy for civil rights and humanitarian efforts.`,
+            i: `Muhammad Ali was an American professional boxer and cultural icon, widely regarded as one of the greatest athletes of all time. Known for his charisma, activism, and boxing prowess, Ali became a symbol of resistance against racial injustice and war. His legacy extends beyond the ring, inspiring generations with his advocacy for civil rights and humanitarian efforts.`,
             wiki: "https://en.wikipedia.org/wiki/Muhammad_Ali",
             image: "https://upload.wikimedia.org/wikipedia/commons/3/3b/Muhammad_Ali%2C_gtfy.00140_%28cropped%29.jpg",
             q: [
@@ -307,9 +258,7 @@ export default function handler(req, res) {
         },
         friedrichN: {
             a: "Friedrich Nietzsche",
-            i: `Friedrich Nietzsche was a German philosopher, cultural critic, and poet known for his provocative ideas on morality, religion, and individuality. 
-                He challenged traditional values with concepts like the "will to power," the "Übermensch," and the declaration that "God is dead." 
-                Nietzsche’s work has had a lasting impact on existentialism, psychology, and modern philosophy.`,
+            i: `Friedrich Nietzsche was a German philosopher, cultural critic, and poet known for his provocative ideas on morality, religion, and individuality. He challenged traditional values with concepts like the "will to power," the "Übermensch," and the declaration that "God is dead." Nietzsche’s work has had a lasting impact on existentialism, psychology, and modern philosophy.`,
             wiki: "https://en.wikipedia.org/wiki/Friedrich_Nietzsche",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/1024px-Nietzsche187a.jpg",
             q: [
@@ -318,9 +267,7 @@ export default function handler(req, res) {
         },
         oscarW: {
             a: "Oscar Wilde",
-            i: `Oscar Wilde was an Irish poet and playwright known for his sharp wit, flamboyant style, and brilliant works. 
-                His most famous play, "The Importance of Being Earnest," showcases his talent for satire and social commentary. 
-                Wilde's life was marked by both literary success and personal scandal, making him a complex figure in literary history.`,
+            i: `Oscar Wilde was an Irish poet and playwright known for his sharp wit, flamboyant style, and brilliant works. His most famous play, "The Importance of Being Earnest," showcases his talent for satire and social commentary. Wilde's life was marked by both literary success and personal scandal, making him a complex figure in literary history.`,
             wiki: "https://en.wikipedia.org/wiki/Oscar_Wilde",
             image: "https://upload.wikimedia.org/wikipedia/commons/4/44/Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph%2C_seated.jpg",
             q: [
@@ -331,9 +278,7 @@ export default function handler(req, res) {
         },
         tonyR: {
             a: "Tony Robbins",
-            i: `Tony Robbins is an American author, entrepreneur, and motivational speaker known for his self-help books and seminars. 
-                He has inspired millions with his teachings on personal development, finance, and peak performance. 
-                Robbins emphasizes the power of mindset and actionable strategies to achieve success and fulfillment.`,
+            i: `Tony Robbins is an American author, entrepreneur, and motivational speaker known for his self-help books and seminars. He has inspired millions with his teachings on personal development, finance, and peak performance. Robbins emphasizes the power of mindset and actionable strategies to achieve success and fulfillment.`,
             wiki: "https://en.wikipedia.org/wiki/Tony_Robbins",
             image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Tony_Robbins.jpg",
             q: [
@@ -342,9 +287,7 @@ export default function handler(req, res) {
         },
         thomasE: {
             a: "Thomas Edison",
-            i: `Thomas Edison was an American inventor and businessman who developed many devices that greatly influenced life around the world. 
-                He is best known for inventing the phonograph, the motion picture camera, and the electric light bulb. 
-                Edison's work laid the foundation for modern electric power generation and distribution.`,
+            i: `Thomas Edison was an American inventor and businessman who developed many devices that greatly influenced life around the world. He is best known for inventing the phonograph, the motion picture camera, and the electric light bulb. Edison's work laid the foundation for modern electric power generation and distribution.`,
             wiki: "https://en.wikipedia.org/wiki/Thomas_Edison",
             image: "https://upload.wikimedia.org/wikipedia/commons/9/9d/Thomas_Edison2.jpg",
             q: [
@@ -353,9 +296,7 @@ export default function handler(req, res) {
         },
         henryF: {
             a: "Henry Ford",
-            i: `Henry Ford was an American industrialist and founder of the Ford Motor Company. 
-                He revolutionized the automobile industry by introducing assembly line production techniques, making cars affordable for the average American. 
-                Ford's innovations in manufacturing and labor practices had a profound impact on modern industry.`,
+            i: `Henry Ford was an American industrialist and founder of the Ford Motor Company. He revolutionized the automobile industry by introducing assembly line production techniques, making cars affordable for the average American. Ford's innovations in manufacturing and labor practices had a profound impact on modern industry.`,
             wiki: "https://en.wikipedia.org/wiki/Henry_Ford",
             image: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Henry_Ford_portrait_1915_cropped.png",
             q: [
@@ -364,9 +305,7 @@ export default function handler(req, res) {
         },
         laoT: {
             a: "Lao Tzu",
-            i: `Lao Tzu was an ancient Chinese philosopher and writer, best known as the founder of Taoism. 
-                His work, the "Tao Te Ching," emphasizes harmony with nature, simplicity, and humility. 
-                Lao Tzu's teachings have influenced Eastern philosophy and spirituality for centuries.`,
+            i: `Lao Tzu was an ancient Chinese philosopher and writer, best known as the founder of Taoism. His work, the "Tao Te Ching," emphasizes harmony with nature, simplicity, and humility. Lao Tzu's teachings have influenced Eastern philosophy and spirituality for centuries.`,
             wiki: "https://en.wikipedia.org/wiki/Laozi",
             image: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Zhang_Lu-Laozi_Riding_an_Ox.jpg",
             q: [
@@ -375,9 +314,7 @@ export default function handler(req, res) {
         },
         georgeP: {
             a: "George Patton",
-            i: `George Patton was a prominent American general during World War II, known for his bold and aggressive tactics. 
-                He played a crucial role in the Allied victory in Europe, leading forces in North Africa, Sicily, and the Battle of the Bulge. 
-                Patton's leadership style and strategic insights have made him a legendary figure in military history.`,
+            i: `George Patton was a prominent American general during World War II, known for his bold and aggressive tactics. He played a crucial role in the Allied victory in Europe, leading forces in North Africa, Sicily, and the Battle of the Bulge. Patton's leadership style and strategic insights have made him a legendary figure in military history.`,
             wiki: "https://en.wikipedia.org/wiki/George_S._Patton",
             image: "https://upload.wikimedia.org/wikipedia/commons/a/a0/General_George_Patton_by_Robert_F._Cranston%2C_Lee_Elkins%2C_and_Harry_Warnecke%2C_1945%2C_color_carbro_print%2C_from_the_National_Portrait_Gallery_-_NPG-NPG_95_404Patton-000002.jpg",
             q: [
@@ -386,9 +323,7 @@ export default function handler(req, res) {
         },
         suzyK: {
             a: "Suzy Kassem",
-            i: `Suzy Kassem is an American author, poet, and filmmaker known for her thought-provoking writings on spirituality, philosophy, and social justice. 
-                Her work often emphasizes the importance of love, unity, and understanding in a divided world. 
-                Kassem's unique voice and perspective have resonated with readers seeking inspiration and empowerment.`,
+            i: `Suzy Kassem is an American author, poet, and filmmaker known for her thought-provoking writings on spirituality, philosophy, and social justice. Her work often emphasizes the importance of love, unity, and understanding in a divided world. Kassem's unique voice and perspective have resonated with readers seeking inspiration and empowerment.`,
             wiki: "https://www.imdb.com/name/nm5835419/bio/",
             image: "https://4.bp.blogspot.com/-5_Z5wqLinno/Ww_75VBwDQI/AAAAAAAAL9A/-UCxQ-9sf18HHsvy-PhWsWHWUSFcuoTqgCLcBGAs/s1600/Suzy-Kassem-2013.png",
             q: [
@@ -397,9 +332,7 @@ export default function handler(req, res) {
         },
         florenceN: {
             a: "Florence Nightingale",
-            i: `Florence Nightingale was an English social reformer and statistician, best known as the founder of modern nursing. 
-                Her pioneering work during the Crimean War revolutionized healthcare practices and established nursing as a respected profession. 
-                Nightingale's emphasis on sanitation, patient care, and statistical analysis laid the groundwork for evidence-based medicine.`,
+            i: `Florence Nightingale was an English social reformer and statistician, best known as the founder of modern nursing. Her pioneering work during the Crimean War revolutionized healthcare practices and established nursing as a respected profession. Nightingale's emphasis on sanitation, patient care, and statistical analysis laid the groundwork for evidence-based medicine.`,
             wiki: "https://en.wikipedia.org/wiki/Florence_Nightingale",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Florence_Nightingale_%28H_Hering_NPG_x82368%29.jpg/1024px-Florence_Nightingale_%28H_Hering_NPG_x82368%29.jpg",
             q: [
@@ -408,9 +341,7 @@ export default function handler(req, res) {
         },
         cSLewis: {
             a: "C.S. Lewis",
-            i: `C.S. Lewis was a British writer, theologian, and academic best known for his beloved fantasy series The Chronicles of Narnia. 
-                A scholar of literature at Oxford and Cambridge, he also wrote extensively on Christian apologetics, including works like Mere Christianity and The Screwtape Letters. 
-                Lewis’s blend of imagination, intellect, and spiritual insight continues to influence readers of all ages around the world.`,
+            i: `C.S. Lewis was a British writer, theologian, and academic best known for his beloved fantasy series The Chronicles of Narnia. A scholar of literature at Oxford and Cambridge, he also wrote extensively on Christian apologetics, including works like Mere Christianity and The Screwtape Letters. Lewis’s blend of imagination, intellect, and spiritual insight continues to influence readers of all ages around the world.`,
             wiki: "https://en.wikipedia.org/wiki/C._S._Lewis",
             image: "https://upload.wikimedia.org/wikipedia/en/1/1e/C.s.lewis3.JPG",
             q: [
@@ -420,9 +351,7 @@ export default function handler(req, res) {
         },
         mahatmaG: {
             a: "Mahatma Gandhi",
-            i: `Mahatma Gandhi was an Indian lawyer, anti-colonial nationalist, and political ethicist who led the Indian independence movement against British rule. 
-                He is best known for his philosophy of nonviolent resistance and civil disobedience, which inspired movements for civil rights and freedom across the world. 
-                Gandhi's legacy continues to influence leaders and activists advocating for peace and justice.`,
+            i: `Mahatma Gandhi was an Indian lawyer, anti-colonial nationalist, and political ethicist who led the Indian independence movement against British rule. He is best known for his philosophy of nonviolent resistance and civil disobedience, which inspired movements for civil rights and freedom across the world. Gandhi's legacy continues to influence leaders and activists advocating for peace and justice.`,
             wiki: "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
             image: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg",
             q: [
@@ -431,9 +360,7 @@ export default function handler(req, res) {
         },
         napoleonH: {
             a: "Napoleon Hill",
-            i: `Napoleon Hill was an American self-help author, best known for his book "Think and Grow Rich," which is one of the best-selling books of all time. 
-                Hill's work focuses on personal success, positive thinking, and the principles of achievement. 
-                His teachings have inspired countless individuals to pursue their goals and dreams.`,
+            i: `Napoleon Hill was an American self-help author, best known for his book "Think and Grow Rich," which is one of the best-selling books of all time. Hill's work focuses on personal success, positive thinking, and the principles of achievement. His teachings have inspired countless individuals to pursue their goals and dreams.`,
             wiki: "https://en.wikipedia.org/wiki/Napoleon_Hill",
             image: "https://upload.wikimedia.org/wikipedia/commons/7/75/Napoleon_Hill_headshot.jpg",
             q: [
@@ -442,9 +369,7 @@ export default function handler(req, res) {
         },
         martinK: {
             a: "Martin Luther King Jr.",
-            i: `Martin Luther King Jr. was an American civil rights leader and activist who played a pivotal role in the American civil rights movement. 
-                He is best known for his use of nonviolent civil disobedience based on his Christian beliefs and the teachings of Mahatma Gandhi. 
-                King's legacy continues to inspire movements for justice and equality worldwide.`,
+            i: `Martin Luther King Jr. was an American civil rights leader and activist who played a pivotal role in the American civil rights movement. He is best known for his use of nonviolent civil disobedience based on his Christian beliefs and the teachings of Mahatma Gandhi. King's legacy continues to inspire movements for justice and equality worldwide.`,
             wiki: "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.",
             image: "https://upload.wikimedia.org/wikipedia/commons/0/05/Martin_Luther_King%2C_Jr..jpg",
             q: [
@@ -453,9 +378,7 @@ export default function handler(req, res) {
         },
         langstonH: {
             a: "Langston Hughes",
-            i: `Langston Hughes was an American poet, social activist, novelist, playwright, and columnist known for his work during the Harlem Renaissance. 
-                His poetry often reflects the experiences and struggles of African Americans, celebrating their culture and resilience. 
-                Hughes's unique voice and perspective have made him a central figure in American literature.`,
+            i: `Langston Hughes was an American poet, social activist, novelist, playwright, and columnist known for his work during the Harlem Renaissance. His poetry often reflects the experiences and struggles of African Americans, celebrating their culture and resilience. Hughes's unique voice and perspective have made him a central figure in American literature.`,
             wiki: "https://en.wikipedia.org/wiki/Langston_Hughes",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Langston_Hughes_by_Carl_Van_Vechten_%28cropped%29.jpg/800px-Langston_Hughes_by_Carl_Van_Vechten_%28cropped%29.jpg",
             q: [
@@ -465,9 +388,7 @@ export default function handler(req, res) {
         },
         desmondT: {
             a: "Desmond Tutu",
-            i: `Desmond Tutu was a South African Anglican bishop and human rights activist best known for his outspoken opposition to apartheid. 
-                He promoted peace, forgiveness, and reconciliation, playing a key role in South Africa’s transition to democracy. 
-                Awarded the Nobel Peace Prize in 1984, Tutu’s legacy lives on as a global voice for justice, compassion, and human dignity.`,
+            i: `Desmond Tutu was a South African Anglican bishop and human rights activist best known for his outspoken opposition to apartheid. He promoted peace, forgiveness, and reconciliation, playing a key role in South Africa’s transition to democracy. Awarded the Nobel Peace Prize in 1984, Tutu’s legacy lives on as a global voice for justice, compassion, and human dignity.`,
             wiki: "https://en.wikipedia.org/wiki/Desmond_Tutu",
             image: "https://upload.wikimedia.org/wikipedia/commons/e/e4/Archbishop-Tutu-medium.jpg",
             q: [
@@ -476,9 +397,7 @@ export default function handler(req, res) {
         },
         frederickD: {
             a: "Frederick Douglass",
-            i: `Frederick Douglass was a formerly enslaved American who became a powerful abolitionist, writer, and orator. 
-                He dedicated his life to the fight for justice, equality, and the end of slavery, using his voice and pen to inspire change. 
-                His autobiographies and speeches remain some of the most influential works in American history on civil rights and human freedom.`,
+            i: `Frederick Douglass was a formerly enslaved American who became a powerful abolitionist, writer, and orator. He dedicated his life to the fight for justice, equality, and the end of slavery, using his voice and pen to inspire change. His autobiographies and speeches remain some of the most influential works in American history on civil rights and human freedom.`,
             wiki: "https://en.wikipedia.org/wiki/Frederick_Douglass",
             image: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Frederick_Douglass_%28circa_1879%29_%28cropped%29.jpg",
             q: [
@@ -488,9 +407,7 @@ export default function handler(req, res) {
         },
         oprahW: {
             a: "Oprah Winfrey",
-            i: `Oprah Winfrey is an American talk show host, television producer, actress, author, and media proprietor. 
-                She is best known for her talk show, The Oprah Winfrey Show, which ran for 25 years and became one of the most influential programs in television history. 
-                Winfrey is also recognized for her philanthropy and advocacy for education and empowerment.`,
+            i: `Oprah Winfrey is an American talk show host, television producer, actress, author, and media proprietor. She is best known for her talk show, The Oprah Winfrey Show, which ran for 25 years and became one of the most influential programs in television history. Winfrey is also recognized for her philanthropy and advocacy for education and empowerment.`,
             wiki: "https://en.wikipedia.org/wiki/Oprah_Winfrey",
             image: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Oprah_Winfrey_2016.jpg",
             q: [
@@ -502,9 +419,7 @@ export default function handler(req, res) {
         },
         sojournerT: {
             a: "Sojourner Truth",
-            i: `Sojourner Truth was an African American abolitionist and women’s rights activist who was born into slavery and gained her freedom in the early 1800s.
-                Known for her powerful speeches and unshakable faith, she became a leading voice in the fight for equality and justice. 
-                Her most famous speech, “Ain’t I a Woman?”, challenged racial and gender inequalities and continues to inspire movements for human rights today.`,
+            i: `Sojourner Truth was an African American abolitionist and women’s rights activist who was born into slavery and gained her freedom in the early 1800s. Known for her powerful speeches and unshakable faith, she became a leading voice in the fight for equality and justice. Her most famous speech, “Ain’t I a Woman?”, challenged racial and gender inequalities and continues to inspire movements for human rights today.`,
             wiki: "https://en.wikipedia.org/wiki/Sojourner_Truth",
             image: "https://upload.wikimedia.org/wikipedia/commons/5/54/Sojourner_Truth%2C_1870_%28cropped%2C_restored%29.jpg",
             q: [
@@ -513,9 +428,7 @@ export default function handler(req, res) {
         },
         shirleyC : {
             a: "Shirley Chisholm",
-            i: `Shirley Chisholm was a trailblazing American politician, educator, and author who became the first Black woman elected to the United States Congress in 1968. 
-                Known for her bold independence and powerful advocacy, she made history again in 1972 as the first Black woman to run for President of the United States from a major party. 
-                Her legacy lives on as a fearless champion for civil rights, women's equality, and political representation.`,
+            i: `Shirley Chisholm was a trailblazing American politician, educator, and author who became the first Black woman elected to the United States Congress in 1968. Known for her bold independence and powerful advocacy, she made history again in 1972 as the first Black woman to run for President of the United States from a major party. Her legacy lives on as a fearless champion for civil rights, women's equality, and political representation.`,
             wiki: "https://en.wikipedia.org/wiki/Shirley_Chisholm",
             image: "https://upload.wikimedia.org/wikipedia/commons/1/10/Shirley_Chisholm.jpg",
             q: [
@@ -525,9 +438,7 @@ export default function handler(req, res) {
         },
         rosaP: {
             a: "Rosa Parks",
-            i: `Rosa Parks was an African American civil rights activist known as "the mother of the civil rights movement." 
-                Her refusal to give up her bus seat to a white passenger in Montgomery, Alabama, sparked the Montgomery Bus Boycott and became a symbol of the fight against racial segregation. 
-                Parks' courage and determination continue to inspire movements for social justice and equality.`,
+            i: `Rosa Parks was an African American civil rights activist known as "the mother of the civil rights movement." Her refusal to give up her bus seat to a white passenger in Montgomery, Alabama, sparked the Montgomery Bus Boycott and became a symbol of the fight against racial segregation. Parks' courage and determination continue to inspire movements for social justice and equality.`,
             wiki: "https://en.wikipedia.org/wiki/Rosa_Parks",
             image: "https://upload.wikimedia.org/wikipedia/commons/c/c4/Rosaparks.jpg",
             q: [
@@ -537,9 +448,7 @@ export default function handler(req, res) {
         },
         mayaA: {
             a: "Maya Angelou",
-            i: `Maya Angelou was an American poet, memoirist, and civil rights activist known for her powerful words and advocacy for equality. 
-                Her autobiographical works, including "I Know Why the Caged Bird Sings," explore themes of identity, racism, and resilience. 
-                Angelou's legacy as a literary icon and social justice advocate continues to inspire people around the world.`,
+            i: `Maya Angelou was an American poet, memoirist, and civil rights activist known for her powerful words and advocacy for equality. Her autobiographical works, including "I Know Why the Caged Bird Sings," explore themes of identity, racism, and resilience. Angelou's legacy as a literary icon and social justice advocate continues to inspire people around the world.`,
             wiki: "https://en.wikipedia.org/wiki/Maya_Angelou",
             image: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Angelou_at_Clinton_inauguration_%28cropped_2%29.jpg",
             q: [
@@ -551,9 +460,7 @@ export default function handler(req, res) {
         },
         phyllisW: {
             a: "Phyllis Wheatley",
-            i: `Phyllis Wheatley was the first African American woman to publish a book of poetry. 
-                Born in West Africa and enslaved as a child, she was brought to Boston where her literary talent quickly emerged. 
-                Her work blended classical themes with reflections on race, religion, and freedom, making her a powerful voice in both American literature and early abolitionist thought.`,
+            i: `Phyllis Wheatley was the first African American woman to publish a book of poetry. Born in West Africa and enslaved as a child, she was brought to Boston where her literary talent quickly emerged. Her work blended classical themes with reflections on race, religion, and freedom, making her a powerful voice in both American literature and early abolitionist thought.`,
             wiki: "https://en.wikipedia.org/wiki/Phyllis_Wheatley",
             image: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Phillis_Wheatley_frontispiece.jpg",
             q: [
@@ -562,9 +469,7 @@ export default function handler(req, res) {
         },
         bookerTW: {
             a: "Booker T. Washington",
-            i: `Booker T. Washington was an African American educator, author, and advisor to several presidents of the United States. 
-                He was a leading figure in the African American community during the late 19th and early 20th centuries, advocating for vocational education and economic self-reliance. 
-                Washington's legacy continues to influence discussions on education and civil rights.`,
+            i: `Booker T. Washington was an African American educator, author, and advisor to several presidents of the United States. He was a leading figure in the African American community during the late 19th and early 20th centuries, advocating for vocational education and economic self-reliance. Washington's legacy continues to influence discussions on education and civil rights.`,
             wiki: "https://en.wikipedia.org/wiki/Booker_T._Washington",
             image: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Booker_T_Washington_retouched_flattened-crop.jpg",
             q: [
@@ -574,9 +479,7 @@ export default function handler(req, res) {
         },
         beyonce: {
             a: "Beyoncé",
-            i: `Beyoncé is an American singer, songwriter, actress, and producer known for her powerful voice and dynamic performances. 
-                Rising to fame in the late 1990s as a member of Destiny's Child, she has since established herself as a solo artist and cultural icon. 
-                Beyoncé's music often explores themes of empowerment, love, and social justice, making her a significant figure in contemporary pop culture.`,
+            i: `Beyoncé is an American singer, songwriter, actress, and producer known for her powerful voice and dynamic performances. Rising to fame in the late 1990s as a member of Destiny's Child, she has since established herself as a solo artist and cultural icon. Beyoncé's music often explores themes of empowerment, love, and social justice, making her a significant figure in contemporary pop culture.`,
             wiki: "https://en.wikipedia.org/wiki/Beyonc%C3%A9",
             image: "https://www.rollingstone.com/wp-content/uploads/2019/04/beyonce-adidas.jpg",
             q: [
@@ -586,9 +489,7 @@ export default function handler(req, res) {
         },
         angelaD: {
             a: "Angela Davis",
-            i: `Angela Davis is an American political activist, scholar, and author who became an iconic figure in the civil rights and Black liberation movements. 
-                Known for her involvement with the Black Panther Party and her advocacy for prison reform and social justice, she has spent decades fighting systemic oppression. 
-                Davis’s powerful voice continues to inspire generations to challenge inequality and envision a more just world.`,
+            i: `Angela Davis is an American political activist, scholar, and author who became an iconic figure in the civil rights and Black liberation movements. Known for her involvement with the Black Panther Party and her advocacy for prison reform and social justice, she has spent decades fighting systemic oppression. Davis’s powerful voice continues to inspire generations to challenge inequality and envision a more just world.`,
             wiki: "https://en.wikipedia.org/wiki/Angela_Davis",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Angela_Davis_at_Oregon_State_University.jpg/1920px-Angela_Davis_at_Oregon_State_University.jpg",
             q: [
@@ -597,9 +498,7 @@ export default function handler(req, res) {
         },
         maeJ: {
             a: "Mae Jemison",
-            i: `Mae Jemison is an American engineer, physician, and former NASA astronaut who became the first Black woman to travel into space in 1992 aboard the Space Shuttle Endeavour. 
-                A lifelong advocate for science education and inclusion, she has broken barriers in both STEM and public service. 
-                Jemison continues to inspire future generations through her work in education, technology, and space exploration.`,
+            i: `Mae Jemison is an American engineer, physician, and former NASA astronaut who became the first Black woman to travel into space in 1992 aboard the Space Shuttle Endeavour. A lifelong advocate for science education and inclusion, she has broken barriers in both STEM and public service. Jemison continues to inspire future generations through her work in education, technology, and space exploration.`,
             wiki: "https://en.wikipedia.org/wiki/Mae_Jemison",
             image: "https://upload.wikimedia.org/wikipedia/commons/5/55/Mae_Carol_Jemison.jpg",
             q: [
@@ -609,9 +508,7 @@ export default function handler(req, res) {
         },
         colinP: {
             a: "Colin Powell",
-            i: `Colin Powell was an American statesman and retired four-star general in the United States Army. 
-                He served as the 65th United States Secretary of State from 2001 to 2005, becoming the first African American to hold the position. 
-                Powell's leadership and dedication to public service have made him a respected figure in American history.`,
+            i: `Colin Powell was an American statesman and retired four-star general in the United States Army. He served as the 65th United States Secretary of State from 2001 to 2005, becoming the first African American to hold the position. Powell's leadership and dedication to public service have made him a respected figure in American history.`,
             wiki: "https://en.wikipedia.org/wiki/Colin_Powell",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Colin_Powell_official_Secretary_of_State_photo.jpg/1024px-Colin_Powell_official_Secretary_of_State_photo.jpg",
             q: [
@@ -620,9 +517,7 @@ export default function handler(req, res) {
         },
         frankS: {
             a: "Frank Sinatra",
-            i: `Frank Sinatra was an American singer, actor, and producer who became one of the best-selling music artists of all time. 
-                Known for his smooth voice and charismatic stage presence, he was a leading figure in the music industry for decades. 
-                Sinatra's influence extended beyond music, making him a cultural icon in film and entertainment.`,
+            i: `Frank Sinatra was an American singer, actor, and producer who became one of the best-selling music artists of all time. Known for his smooth voice and charismatic stage presence, he was a leading figure in the music industry for decades. Sinatra's influence extended beyond music, making him a cultural icon in film and entertainment.`,
             wiki: "https://en.wikipedia.org/wiki/Frank_Sinatra",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Frank_Sinatra_%281957_studio_portrait_close-up%29.jpg/1024px-Frank_Sinatra_%281957_studio_portrait_close-up%29.jpg",
             q: [
@@ -632,9 +527,7 @@ export default function handler(req, res) {
         },
         malcolmX: {
             a: "Malcolm X",
-            i: `Malcolm X was an African American Muslim minister and human rights activist who was a prominent figure in the civil rights movement. 
-                Known for his advocacy for Black empowerment and his critique of systemic racism, he became a symbol of resistance and change. 
-                Malcolm X's legacy continues to inspire movements for social justice and equality worldwide.`,
+            i: `Malcolm X was an African American Muslim minister and human rights activist who was a prominent figure in the civil rights movement. Known for his advocacy for Black empowerment and his critique of systemic racism, he became a symbol of resistance and change. Malcolm X's legacy continues to inspire movements for social justice and equality worldwide.`,
             wiki: "https://en.wikipedia.org/wiki/Malcolm_X",
             image: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Malcolm_X_NYWTS_4.jpg",
             q: [
@@ -643,9 +536,7 @@ export default function handler(req, res) {
         },
         anneS: {
             a: "Anne Sweeney",
-            i: `Anne Sweeney is an American television producer and executive known for her influential role in the entertainment industry. 
-                As the former president of Disney Channel and ABC Cable Networks, she played a key role in shaping popular culture through innovative programming. 
-                Sweeney's leadership and vision have made her a respected figure in media and entertainment.`,
+            i: `Anne Sweeney is an American television producer and executive known for her influential role in the entertainment industry. As the former president of Disney Channel and ABC Cable Networks, she played a key role in shaping popular culture through innovative programming. Sweeney's leadership and vision have made her a respected figure in media and entertainment.`,
             wiki: "https://en.wikipedia.org/wiki/Anne_Sweeney",
             image: "https://m.media-amazon.com/images/M/MV5BMzI4NzIwODEyNF5BMl5BanBnXkFtZTYwNTMyMTc1._V1_UY1200_CR93,0,630,1200_AL_.jpg",
             q: [
@@ -654,9 +545,7 @@ export default function handler(req, res) {
         },
         aliceW: {
             a: "Alice Walker",
-            i: `Alice Walker is an American novelist, poet, and activist best known for her Pulitzer Prize–winning novel The Color Purple. 
-                Her work explores themes of race, gender, and social justice, often centering the experiences of Black women. 
-                Walker’s writing and activism have made her a powerful voice for equality, healing, and empowerment across generations.`,
+            i: `Alice Walker is an American novelist, poet, and activist best known for her Pulitzer Prize–winning novel The Color Purple. Her work explores themes of race, gender, and social justice, often centering the experiences of Black women. Walker’s writing and activism have made her a powerful voice for equality, healing, and empowerment across generations.`,
             wiki: "https://en.wikipedia.org/wiki/Alice_Walker",
             image: "https://upload.wikimedia.org/wikipedia/commons/5/59/Alice_Walker.jpg",
             q: [
@@ -665,9 +554,7 @@ export default function handler(req, res) {
         },
         madamWalker: {
             a: "Madam C.J. Walker",
-            i: `Madam C.J. Walker was an African American entrepreneur, philanthropist, and activist who became the first self-made female millionaire in the United States. 
-                She built a beauty empire developing haircare products for Black women and used her wealth to support civil rights causes and uplift her community. 
-                Her legacy is one of innovation, empowerment, and breaking barriers against all odds.`,
+            i: `Madam C.J. Walker was an African American entrepreneur, philanthropist, and activist who became the first self-made female millionaire in the United States. She built a beauty empire developing haircare products for Black women and used her wealth to support civil rights causes and uplift her community. Her legacy is one of innovation, empowerment, and breaking barriers against all odds.`,
             wiki: "https://en.wikipedia.org/wiki/Madam_C.J._Walker",
             image: "https://upload.wikimedia.org/wikipedia/commons/9/98/Madam_CJ_Walker_face_circa_1914.jpg",
             q: [
@@ -676,9 +563,7 @@ export default function handler(req, res) {
         },
         dukeE: {
             a: "Duke Ellington",
-            i: `Duke Ellington was an American composer, pianist, and bandleader who is considered one of the greatest jazz musicians in history. 
-                His innovative compositions and arrangements transformed jazz into a sophisticated art form. 
-                Ellington's influence on music and culture continues to resonate today.`,
+            i: `Duke Ellington was an American composer, pianist, and bandleader who is considered one of the greatest jazz musicians in history. His innovative compositions and arrangements transformed jazz into a sophisticated art form. Ellington's influence on music and culture continues to resonate today.`,
             wiki: "https://en.wikipedia.org/wiki/Duke_Ellington",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Duke_Ellington_%281957%29.jpg/1024px-Duke_Ellington_%281957%29.jpg",
             q: [
@@ -687,9 +572,7 @@ export default function handler(req, res) {
         },
         bellH: {
             a: "bell hooks",
-            i: `bell hooks was an influential American author, professor, feminist, and social activist whose work explored the intersection of race, gender, and class. 
-                Known for her powerful critiques of patriarchy and white supremacy, she advocated for love, education, and community as tools for healing and transformation. 
-                Her lowercase pen name symbolized her commitment to focus on ideas over identity, and her legacy continues to shape conversations around justice and equality worldwide.`,
+            i: `bell hooks was an influential American author, professor, feminist, and social activist whose work explored the intersection of race, gender, and class. Known for her powerful critiques of patriarchy and white supremacy, she advocated for love, education, and community as tools for healing and transformation. Her lowercase pen name symbolized her commitment to focus on ideas over identity, and her legacy continues to shape conversations around justice and equality worldwide.`,
             wiki: "https://en.wikipedia.org/wiki/Bell_hooks",
             image: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Bellhooks.jpg",
             q: [
@@ -698,9 +581,7 @@ export default function handler(req, res) {
         },
         anitaH: {
             a: "Anita Hill",
-            i: `Anita Hill is an American attorney, educator, and civil rights advocate who became nationally known in 1991 when she testified before the U.S. Senate about the sexual harassment she experienced while working with Supreme Court nominee Clarence Thomas. 
-                Her courageous testimony sparked a nationwide conversation about workplace harassment, gender equality, and power dynamics. 
-                Hill has since continued her work as a professor and activist, advocating for justice and accountability in education, law, and public policy.`,
+            i: `Anita Hill is an American attorney, educator, and civil rights advocate who became nationally known in 1991 when she testified before the U.S. Senate about the sexual harassment she experienced while working with Supreme Court nominee Clarence Thomas. Her courageous testimony sparked a nationwide conversation about workplace harassment, gender equality, and power dynamics. Hill has since continued her work as a professor and activist, advocating for justice and accountability in education, law, and public policy.`,
             wiki: "https://en.wikipedia.org/wiki/Anita_Hill",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Anita_Hill_by_Gage_Skidmore.jpg/1024px-Anita_Hill_by_Gage_Skidmore.jpg",
             q: [
@@ -709,9 +590,7 @@ export default function handler(req, res) {
         },
         audreyL: {
             a: "Audre Lorde",
-            i: `Audre Lorde was a Black lesbian poet, essayist, and activist whose work explored themes of identity, justice, and empowerment. 
-                She described herself as a “Black, lesbian, mother, warrior, poet” and used her voice to confront racism, sexism, homophobia, and classism. 
-                Through both her writing and activism, Lorde championed the power of self-expression, intersectionality, and speaking truth to power.`,
+            i: `Audre Lorde was a Black lesbian poet, essayist, and activist whose work explored themes of identity, justice, and empowerment. She described herself as a “Black, lesbian, mother, warrior, poet” and used her voice to confront racism, sexism, homophobia, and classism. Through both her writing and activism, Lorde championed the power of self-expression, intersectionality, and speaking truth to power.`,
             wiki: "https://en.wikipedia.org/wiki/Audre_Lorde",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Audre_Lorde.jpg/800px-Audre_Lorde.jpg",
             q: [
@@ -720,9 +599,7 @@ export default function handler(req, res) {
         },
         patriciaB: {
             a: "Patricia Bath",
-            i: `Dr. Patricia Bath was an American ophthalmologist, inventor, and pioneering medical researcher. 
-                She was the first Black woman to complete a residency in ophthalmology and the first Black female doctor to receive a medical patent. 
-                Her invention of the Laserphaco Probe revolutionized cataract surgery, and she spent her career advocating for equitable healthcare and eradicating preventable blindness worldwide.`,
+            i: `Dr. Patricia Bath was an American ophthalmologist, inventor, and pioneering medical researcher. She was the first Black woman to complete a residency in ophthalmology and the first Black female doctor to receive a medical patent. Her invention of the Laserphaco Probe revolutionized cataract surgery, and she spent her career advocating for equitable healthcare and eradicating preventable blindness worldwide.`,
             wiki: "https://en.wikipedia.org/wiki/Patricia_Bath",
             image: "https://upload.wikimedia.org/wikipedia/commons/0/08/Patriciabath.jpg",
             q: [
@@ -731,9 +608,7 @@ export default function handler(req, res) {
         },
         milesD: {
             a: "Miles Davis",
-            i: `Miles Davis was an iconic American jazz trumpeter, composer, and bandleader whose innovative style helped shape modern jazz. 
-                From cool jazz to fusion, his ability to evolve musically over decades made him one of the most influential musicians of the 20th century. 
-                Davis's bold creativity and uncompromising artistry continue to inspire generations of artists across genres.`,
+            i: `Miles Davis was an iconic American jazz trumpeter, composer, and bandleader whose innovative style helped shape modern jazz. From cool jazz to fusion, his ability to evolve musically over decades made him one of the most influential musicians of the 20th century. Davis's bold creativity and uncompromising artistry continue to inspire generations of artists across genres.`,
             wiki: "https://en.wikipedia.org/wiki/Miles_Davis",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Miles_Davis_by_Palumbo_cropped.jpg/1024px-Miles_Davis_by_Palumbo_cropped.jpg",
             q: [
@@ -743,9 +618,7 @@ export default function handler(req, res) {
         },
         ossieD: {
             a: "Ossie Davis",
-            i: `Ossie Davis was an American actor, director, and civil rights activist known for his powerful performances in film and theater. 
-                He was a prominent figure in the civil rights movement and used his platform to advocate for social justice and equality. 
-                Davis's legacy as an artist and activist continues to inspire generations of performers and advocates for change.`,
+            i: `Ossie Davis was an American actor, director, and civil rights activist known for his powerful performances in film and theater. He was a prominent figure in the civil rights movement and used his platform to advocate for social justice and equality. Davis's legacy as an artist and activist continues to inspire generations of performers and advocates for change.`,
             wiki: "https://en.wikipedia.org/wiki/Ossie_Davis",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Civil_Rights_March_on_Washington%2C_D.C._%28Actor_Ossie_Davis.%29_-_NARA_-_542018.jpg/800px-Civil_Rights_March_on_Washington%2C_D.C._%28Actor_Ossie_Davis.%29_-_NARA_-_542018.jpg",
             q: [
@@ -754,9 +627,7 @@ export default function handler(req, res) {
         },
         ermaB: {
             a: "Erma Bombeck",
-            i: `Erma Bombeck was an American humorist and writer known for her witty observations on suburban family life. 
-                Her columns, which appeared in newspapers across the country, humorously captured the joys and challenges of motherhood and domesticity. 
-                Bombeck's relatable humor and insights made her a beloved figure in American literature.`,
+            i: `Erma Bombeck was an American humorist and writer known for her witty observations on suburban family life. Her columns, which appeared in newspapers across the country, humorously captured the joys and challenges of motherhood and domesticity. Bombeck's relatable humor and insights made her a beloved figure in American literature.`,
             wiki: "https://en.wikipedia.org/wiki/Erma_Bombeck",
             image: "https://upload.wikimedia.org/wikipedia/en/e/e6/Erma_Bombeck.jpg",
             q: [
@@ -765,9 +636,7 @@ export default function handler(req, res) {
         },
         corettaK: {
             a: "Coretta Scott King",
-            i: `Coretta Scott King was an American author, activist, and civil rights leader known for her work in advancing social justice and equality. 
-                As the wife of Martin Luther King Jr., she played a crucial role in the civil rights movement and continued to advocate for nonviolence and human rights after his assassination. 
-                King's legacy as a leader and advocate for peace continues to inspire generations.`,
+            i: `Coretta Scott King was an American author, activist, and civil rights leader known for her work in advancing social justice and equality. As the wife of Martin Luther King Jr., she played a crucial role in the civil rights movement and continued to advocate for nonviolence and human rights after his assassination. King's legacy as a leader and advocate for peace continues to inspire generations.`,
             wiki: "https://en.wikipedia.org/wiki/Coretta_Scott_King",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Coretta_Scott_King_1964.jpg/800px-Coretta_Scott_King_1964.jpg",
             q: [
@@ -776,9 +645,7 @@ export default function handler(req, res) {
         },
         serenaW: {
             a: "Serena Williams",
-            i: `Serena Williams is one of the greatest athletes of all time, with 23 Grand Slam singles titles and a career that reshaped the world of tennis. 
-                Known for her power, resilience, and unwavering determination, she has broken barriers both on and off the court. 
-                Beyond sports, Serena is a vocal advocate for gender equality, maternal health, and Black excellence, using her platform to inspire future generations.`,
+            i: `Serena Williams is one of the greatest athletes of all time, with 23 Grand Slam singles titles and a career that reshaped the world of tennis. Known for her power, resilience, and unwavering determination, she has broken barriers both on and off the court. Beyond sports, Serena is a vocal advocate for gender equality, maternal health, and Black excellence, using her platform to inspire future generations.`,
             wiki: "https://en.wikipedia.org/wiki/Serena_Williams",
             image: "https://cdn.britannica.com/29/234629-138-240EAB9D/who-is-Serena-Williams.jpg",
             q: [
@@ -789,9 +656,7 @@ export default function handler(req, res) {
         },
         toniM: {
             a: "Toni Morrison",
-            i: `Toni Morrison was an acclaimed American novelist, essayist, and editor best known for her powerful exploration of Black identity and experience. 
-                She was the first African-American woman to win the Nobel Prize in Literature, celebrated for works like Beloved, The Bluest Eye, and Song of Solomon. 
-                Morrison’s writing blended poetic language with deep cultural insight, giving voice to generations of untold stories and reshaping American literature.`,
+            i: `Toni Morrison was an acclaimed American novelist, essayist, and editor best known for her powerful exploration of Black identity and experience. She was the first African-American woman to win the Nobel Prize in Literature, celebrated for works like Beloved, The Bluest Eye, and Song of Solomon. Morrison’s writing blended poetic language with deep cultural insight, giving voice to generations of untold stories and reshaping American literature.`,
             wiki: "https://en.wikipedia.org/wiki/Toni_Morrison",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Toni_Morrison.jpg/800px-Toni_Morrison.jpg",
             q: [
@@ -800,9 +665,7 @@ export default function handler(req, res) {
         },
         jamesB: {
             a: "James Baldwin",
-            i: `James Baldwin was a renowned American writer, essayist, and civil rights activist whose works explored race, identity, and the human condition in 20th-century America. 
-                With powerful novels like Go Tell It on the Mountain and essays like The Fire Next Time, Baldwin became a leading voice in the fight for racial and social justice. 
-                His eloquent, fearless commentary continues to influence thinkers, writers, and activists around the world.`,
+            i: `James Baldwin was a renowned American writer, essayist, and civil rights activist whose works explored race, identity, and the human condition in 20th-century America. With powerful novels like Go Tell It on the Mountain and essays like The Fire Next Time, Baldwin became a leading voice in the fight for racial and social justice. His eloquent, fearless commentary continues to influence thinkers, writers, and activists around the world.`,
             wiki: "https://en.wikipedia.org/wiki/James_Baldwin",
             image: "https://upload.wikimedia.org/wikipedia/commons/f/f3/James_Baldwin_37_Allan_Warren_%28cropped%29.jpg",
             q: [
@@ -811,9 +674,7 @@ export default function handler(req, res) {
         },
         harrietT: {
             a: "Harriet Tubman",
-            i: `Harriet Tubman was an American abolitionist and political activist best known for her work with the Underground Railroad, helping enslaved people escape to freedom. 
-                Born into slavery, she escaped and then returned many times to guide others to safety, risking her life each time. 
-                Tubman became a powerful symbol of courage, resilience, and unwavering commitment to justice and human dignity.`,
+            i: `Harriet Tubman was an American abolitionist and political activist best known for her work with the Underground Railroad, helping enslaved people escape to freedom. Born into slavery, she escaped and then returned many times to guide others to safety, risking her life each time. Tubman became a powerful symbol of courage, resilience, and unwavering commitment to justice and human dignity.`,
             wiki: "https://en.wikipedia.org/wiki/Harriet_Tubman",
             image: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Harriet_Tubman_1895.jpg",
             q: [
@@ -822,9 +683,7 @@ export default function handler(req, res) {
         },
         michaelJ: {
             a: "Michael Jordan",
-            i: `Michael Jordan is a former professional basketball player widely regarded as one of the greatest athletes of all time. 
-                He played the majority of his career with the Chicago Bulls, winning six NBA championships and earning five regular-season MVP awards. 
-                Beyond basketball, Jordan's influence extends to business and philanthropy, making him a global icon.`,
+            i: `Michael Jordan is a former professional basketball player widely regarded as one of the greatest athletes of all time. He played the majority of his career with the Chicago Bulls, winning six NBA championships and earning five regular-season MVP awards. Beyond basketball, Jordan's influence extends to business and philanthropy, making him a global icon.`,
             wiki: "https://en.wikipedia.org/wiki/Michael_Jordan",
             image: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Michael_Jordan_in_2014.jpg",
             q: [
@@ -833,9 +692,7 @@ export default function handler(req, res) {
         },
         markT: {
             a: "Mark Twain",
-            i: `Mark Twain, born Samuel Langhorne Clemens, was a celebrated American author and humorist best known for classics like The Adventures of Tom Sawyer and Adventures of Huckleberry Finn. 
-                He had a sharp wit and a keen eye for social observation, often using satire to critique politics, human nature, and societal norms. 
-                Twain's legacy endures through his unforgettable characters, quotable wisdom, and bold commentary on life and morality.`,
+            i: `Mark Twain, born Samuel Langhorne Clemens, was a celebrated American author and humorist best known for classics like The Adventures of Tom Sawyer and Adventures of Huckleberry Finn. He had a sharp wit and a keen eye for social observation, often using satire to critique politics, human nature, and societal norms. Twain's legacy endures through his unforgettable characters, quotable wisdom, and bold commentary on life and morality.`,
             wiki: "https://en.wikipedia.org/wiki/Mark_Twain",
             image: `https://upload.wikimedia.org/wikipedia/commons/0/0c/Mark_Twain_by_AF_Bradley.jpg`,
             q: [
@@ -845,9 +702,7 @@ export default function handler(req, res) {
         },
         dalaiL: {
             a: "Dalai Lama",
-            i: `The Dalai Lama is the spiritual leader of Tibetan Buddhism and a global advocate for peace, compassion, and human values. 
-                The 14th Dalai Lama, Tenzin Gyatso, has lived in exile since 1959 and has worked tirelessly to promote nonviolence, interfaith harmony, and the importance of inner well-being. 
-                He was awarded the Nobel Peace Prize in 1989 and remains a beloved figure for his teachings on mindfulness, kindness, and universal responsibility.`,
+            i: `The Dalai Lama is the spiritual leader of Tibetan Buddhism and a global advocate for peace, compassion, and human values. The 14th Dalai Lama, Tenzin Gyatso, has lived in exile since 1959 and has worked tirelessly to promote nonviolence, interfaith harmony, and the importance of inner well-being. He was awarded the Nobel Peace Prize in 1989 and remains a beloved figure for his teachings on mindfulness, kindness, and universal responsibility.`,
             wiki: "https://en.wikipedia.org/wiki/Dalai_Lama",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Tenzin_Gyatso_-_14th_Dalai_Lama_%282012%29.jpg/1024px-Tenzin_Gyatso_-_14th_Dalai_Lama_%282012%29.jpg",
             q: [
@@ -857,9 +712,7 @@ export default function handler(req, res) {
         },
         jamieP: {
             a: "Jamie Paolinetti",
-            i: `Jamie Paolinetti is a motivational speaker and author known for her inspiring messages about resilience, self-acceptance, and personal growth. 
-                She encourages individuals to embrace their unique journeys and find strength in vulnerability. 
-                Paolinetti's work focuses on empowering others to overcome challenges and live authentically.`,
+            i: `Jamie Paolinetti is a motivational speaker and author known for her inspiring messages about resilience, self-acceptance, and personal growth. She encourages individuals to embrace their unique journeys and find strength in vulnerability. Paolinetti's work focuses on empowering others to overcome challenges and live authentically.`,
             wiki: "https://www.imdb.com/name/nm4309739/bio/",
             image: "https://imagebox.cz.osobnosti.cz/foto/jamie-239/jamie-239.jpg?1513185618.0",
             q: [
@@ -868,9 +721,7 @@ export default function handler(req, res) {
         },
         pabloP: {
             a: "Pablo Picasso",
-            i: `Pablo Picasso was a Spanish painter, sculptor, and one of the most influential artists of the 20th century. 
-                He co-founded the Cubist movement and continuously reinvented his style, producing over 20,000 works across various mediums. 
-                Beyond his art, Picasso is known for thought-provoking quotes like "Everything you can imagine is real," reflecting his boundless creativity and bold approach to life.`,
+            i: `Pablo Picasso was a Spanish painter, sculptor, and one of the most influential artists of the 20th century. He co-founded the Cubist movement and continuously reinvented his style, producing over 20,000 works across various mediums. Beyond his art, Picasso is known for thought-provoking quotes like "Everything you can imagine is real," reflecting his boundless creativity and bold approach to life.`,
             wiki: "https://en.wikipedia.org/wiki/Pablo_Picasso",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pablo_picasso_1.jpg/1024px-Pablo_picasso_1.jpg",
             q: [
@@ -880,9 +731,7 @@ export default function handler(req, res) {
         },
         zigZ: {
             a: "Zig Ziglar",
-            i: `Zig Ziglar was an American author, salesman, and motivational speaker known for his energetic presentations and uplifting message about personal development and success. 
-                He wrote several bestselling books, including "See You at the Top," and delivered thousands of speeches worldwide. 
-                His timeless teachings emphasized faith, discipline, and perseverance, leaving a lasting legacy in the world of self-improvement and motivation.`,
+            i: `Zig Ziglar was an American author, salesman, and motivational speaker known for his energetic presentations and uplifting message about personal development and success. He wrote several bestselling books, including "See You at the Top," and delivered thousands of speeches worldwide. His timeless teachings emphasized faith, discipline, and perseverance, leaving a lasting legacy in the world of self-improvement and motivation.`,
             wiki: "https://en.wikipedia.org/wiki/Zig_Ziglar",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Zig_Ziglar_at_Get_Motivated_Seminar%2C_Cow_Palace_2009-3-24_3.JPG/1920px-Zig_Ziglar_at_Get_Motivated_Seminar%2C_Cow_Palace_2009-3-24_3.JPG",
             q: [
@@ -891,9 +740,7 @@ export default function handler(req, res) {
         },
         waltD: {
             a: "Walt Disney",
-            i: `Walt Disney was an American entrepreneur, animator, and film producer who co-founded The Walt Disney Company. 
-                He is best known for creating iconic characters like Mickey Mouse and for pioneering innovations in animation and theme parks. 
-                Disney's vision and creativity transformed the entertainment industry, making him a beloved figure worldwide.`,
+            i: `Walt Disney was an American entrepreneur, animator, and film producer who co-founded The Walt Disney Company. He is best known for creating iconic characters like Mickey Mouse and for pioneering innovations in animation and theme parks. Disney's vision and creativity transformed the entertainment industry, making him a beloved figure worldwide.`,
             wiki: "https://en.wikipedia.org/wiki/Walt_Disney",
             image: "https://upload.wikimedia.org/wikipedia/commons/d/df/Walt_Disney_1946.JPG",
             q: [
@@ -902,9 +749,7 @@ export default function handler(req, res) {
         },
         vinceL: {
             a: "Vince Lombardi",
-            i: `Vince Lombardi was an American football coach and executive known for his leadership and success in the National Football League (NFL). 
-                He served as head coach of the Green Bay Packers and is remembered for his emphasis on teamwork, discipline, and winning. 
-                Lombardi's legacy extends beyond sports, symbolizing excellence and determination in any field.`,
+            i: `Vince Lombardi was an American football coach and executive known for his leadership and success in the National Football League (NFL). He served as head coach of the Green Bay Packers and is remembered for his emphasis on teamwork, discipline, and winning. Lombardi's legacy extends beyond sports, symbolizing excellence and determination in any field.`,
             wiki: "https://en.wikipedia.org/wiki/Vince_Lombardi",
             image: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Vince_Lombardi_%281913-1970%29_in_1964_Crop.jpg",
             q: [
@@ -913,9 +758,7 @@ export default function handler(req, res) {
         },
         willR: {
             a: "Will Rogers",
-            i: `Will Rogers was an American cowboy, vaudeville performer, and social commentator known for his wit and wisdom. 
-                He became one of the most popular entertainers in the early 20th century, using humor to address social and political issues. 
-                Rogers' legacy as a humorist and commentator continues to resonate today.`,
+            i: `Will Rogers was an American cowboy, vaudeville performer, and social commentator known for his wit and wisdom. He became one of the most popular entertainers in the early 20th century, using humor to address social and political issues. Rogers' legacy as a humorist and commentator continues to resonate today.`,
             wiki: "https://en.wikipedia.org/wiki/Will_Rogers",
             image: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Will_Rogers_1922.jpg",
             q: [
@@ -925,9 +768,7 @@ export default function handler(req, res) {
         },
         stevenW: {
             a: "Steven Wright",
-            i: `Steven Wright is an American stand-up comedian, actor, and writer known for his deadpan delivery and surreal humor. 
-                His unique style combines absurdist one-liners with philosophical musings, making him a beloved figure in comedy. 
-                Wright's work has earned him critical acclaim and a dedicated fan base.`,
+            i: `Steven Wright is an American stand-up comedian, actor, and writer known for his deadpan delivery and surreal humor. His unique style combines absurdist one-liners with philosophical musings, making him a beloved figure in comedy. Wright's work has earned him critical acclaim and a dedicated fan base.`,
             wiki: "https://en.wikipedia.org/wiki/Steven_Wright",
             image: "https://upload.wikimedia.org/wikipedia/commons/6/68/Steven_Wright_1994.jpg",
             q: [
@@ -939,9 +780,7 @@ export default function handler(req, res) {
         },
         willF: {
             a: "Will Ferrell",
-            i: `Will Ferrell is an American actor, comedian, and producer known for his work on Saturday Night Live and in films like Anchorman and Elf. 
-                His unique blend of absurd humor and charismatic performances has made him a beloved figure in comedy. 
-                Ferrell's ability to create memorable characters and quotable moments has solidified his status as a comedy icon.`,
+            i: `Will Ferrell is an American actor, comedian, and producer known for his work on Saturday Night Live and in films like Anchorman and Elf. His unique blend of absurd humor and charismatic performances has made him a beloved figure in comedy. Ferrell's ability to create memorable characters and quotable moments has solidified his status as a comedy icon.`,
             wiki: "https://en.wikipedia.org/wiki/Will_Ferrell",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Will_Ferrell_at_the_2024_Toronto_International_Film_Festival_5_%28cropped%29.jpg/800px-Will_Ferrell_at_the_2024_Toronto_International_Film_Festival_5_%28cropped%29.jpg",
             q: [
@@ -950,9 +789,7 @@ export default function handler(req, res) {
         },
         robinW: {
             a: "Robin Williams",
-            i: `Robin Williams was an American actor and comedian known for his improvisational skills and energetic performances. 
-                He starred in numerous films, including Good Will Hunting and Mrs. Doubtfire, earning acclaim for both comedic and dramatic roles. 
-                Williams' legacy as a performer and advocate for mental health awareness continues to resonate with audiences worldwide.`,
+            i: `Robin Williams was an American actor and comedian known for his improvisational skills and energetic performances. He starred in numerous films, including Good Will Hunting and Mrs. Doubtfire, earning acclaim for both comedic and dramatic roles. Williams' legacy as a performer and advocate for mental health awareness continues to resonate with audiences worldwide.`,
             wiki: "https://en.wikipedia.org/wiki/Robin_Williams",
             image: "https://upload.wikimedia.org/wikipedia/commons/0/05/Robin_Williams_2011a_%282%29.jpg",
             q: [
@@ -961,9 +798,7 @@ export default function handler(req, res) {
         },
         earlW: {
             a: "Earl Wilson",
-            i: `Earl Wilson was an American journalist and syndicated newspaper columnist best known for his witty and often humorous coverage of celebrities and show business in the mid-20th century. 
-                His column, It Happened Last Night, offered a mix of gossip, sharp observations, and showbiz charm, helping shape entertainment journalism. 
-                Known for his integrity in an often sensational field, Wilson earned respect as both a reporter and a humorist.`,
+            i: `Earl Wilson was an American journalist and syndicated newspaper columnist best known for his witty and often humorous coverage of celebrities and show business in the mid-20th century. His column, It Happened Last Night, offered a mix of gossip, sharp observations, and showbiz charm, helping shape entertainment journalism. Known for his integrity in an often sensational field, Wilson earned respect as both a reporter and a humorist.`,
             wiki: "https://en.wikipedia.org/wiki/Earl_Wilson_(columnist)",
             image: "https://m.media-amazon.com/images/M/MV5BMDY5ODQ1ZGItMjI5NC00OTQ1LWJjM2YtNGY3YjI3ZTNlMDAwXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_UY1200_CR150,0,630,1200_AL_.jpg",
             q: [
@@ -972,9 +807,7 @@ export default function handler(req, res) {
         },
         luisB: {
             a: "Luis Bunuel",
-            i: `Luis Buñuel was a Spanish filmmaker known for his surrealist films and innovative storytelling. 
-                His works often challenged societal norms and explored themes of desire, religion, and the subconscious. 
-                Buñuel's influence on cinema is profound, making him a key figure in the history of film.`,
+            i: `Luis Buñuel was a Spanish filmmaker known for his surrealist films and innovative storytelling. His works often challenged societal norms and explored themes of desire, religion, and the subconscious. Buñuel's influence on cinema is profound, making him a key figure in the history of film.`,
             wiki: "https://en.wikipedia.org/wiki/Luis_Bu%C3%B1uel",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/LuisBu%C3%B1uel1929.jpg/1024px-LuisBu%C3%B1uel1929.jpg",
             q: [
@@ -983,9 +816,7 @@ export default function handler(req, res) {
         },
         charlieC: {
             a: "Charlie Chaplin",
-            i: `Charlie Chaplin was an English comic actor, filmmaker, and composer who became one of the most influential figures in the history of cinema. 
-                Known for his iconic character "The Tramp," Chaplin's films combined humor with social commentary, addressing issues like poverty and inequality. 
-                His legacy as a pioneer of silent film and master of comedy continues to inspire filmmakers and audiences worldwide.`,
+            i: `Charlie Chaplin was an English comic actor, filmmaker, and composer who became one of the most influential figures in the history of cinema. Known for his iconic character "The Tramp," Chaplin's films combined humor with social commentary, addressing issues like poverty and inequality. His legacy as a pioneer of silent film and master of comedy continues to inspire filmmakers and audiences worldwide.`,
             wiki: "https://en.wikipedia.org/wiki/Charlie_Chaplin",
             image: "https://upload.wikimedia.org/wikipedia/commons/3/34/Charlie_Chaplin_portrait.jpg",
             q: [
@@ -994,9 +825,7 @@ export default function handler(req, res) {
         },
         rodneyD: {
             a: "Rodney Dangerfield",
-            i: `Rodney Dangerfield was an American stand-up comedian and actor known for his self-deprecating humor and catchphrase "I don't get no respect." 
-                His unique style and relatable jokes made him a beloved figure in comedy. 
-                Dangerfield's influence on the world of humor continues to resonate with audiences today.`,
+            i: `Rodney Dangerfield was an American stand-up comedian and actor known for his self-deprecating humor and catchphrase "I don't get no respect." His unique style and relatable jokes made him a beloved figure in comedy. Dangerfield's influence on the world of humor continues to resonate with audiences today.`,
             wiki: "https://en.wikipedia.org/wiki/Rodney_Dangerfield",
             image: "https://upload.wikimedia.org/wikipedia/commons/7/71/Rodney_Dangerfield_1972-1.jpg",
             q: [
@@ -1005,9 +834,7 @@ export default function handler(req, res) {
         },
         tommyC: {
             a: "Tommy Cooper",
-            i: `Tommy Cooper was a British comedian and magician known for his distinctive style of humor, blending magic tricks with comedic timing. 
-                His slapstick comedy and catchphrases made him a beloved figure in British entertainment. 
-                Cooper's legacy as a performer continues to inspire comedians and entertainers worldwide.`,
+            i: `Tommy Cooper was a British comedian and magician known for his distinctive style of humor, blending magic tricks with comedic timing. His slapstick comedy and catchphrases made him a beloved figure in British entertainment. Cooper's legacy as a performer continues to inspire comedians and entertainers worldwide.`,
             wiki: "https://en.wikipedia.org/wiki/Tommy_Cooper",
             image: "https://upload.wikimedia.org/wikipedia/en/d/d6/Tommycooper.jpg",
             q: [
@@ -1016,9 +843,7 @@ export default function handler(req, res) {
         },
         bobH: {
             a: "Bob Hope",
-            i: `Bob Hope was an American comedian, actor, and singer known for his long career in entertainment and philanthropy. 
-                He became a beloved figure through his films, television specials, and USO tours during World War II. 
-                Hope's humor and generosity made him a cultural icon, and he received numerous awards for his contributions to entertainment and charity.`,
+            i: `Bob Hope was an American comedian, actor, and singer known for his long career in entertainment and philanthropy. He became a beloved figure through his films, television specials, and USO tours during World War II. Hope's humor and generosity made him a cultural icon, and he received numerous awards for his contributions to entertainment and charity.`,
             wiki: "https://en.wikipedia.org/wiki/Bob_Hope",
             image: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Bob_Hope_1969_Publicity_Photo.jpg",
             q: [
@@ -1027,9 +852,7 @@ export default function handler(req, res) {
         },
         notAbrahamL: {
             a: "Abraham Lincoln (probably not)",
-            i: `TAbraham Lincoln (probably not) was the 16th President of the United States, who famously led the country through the Civil War and abolished slavery — though we’re pretty sure he didn’t warn us about fake quotes on the internet. 
-                Still, he somehow became the unofficial mascot of “internet misattribution,” and this quote — “The trouble with quotes on the internet is that it's difficult to determine whether or not they are genuine.” — hilariously pokes fun at that. 
-                Honest Abe may not have had Wi-Fi, but his legend lives on in meme culture.`,
+            i: `Abraham Lincoln (probably not) was the 16th President of the United States, who famously led the country through the Civil War and abolished slavery — though we’re pretty sure he didn’t warn us about fake quotes on the internet. Still, he somehow became the unofficial mascot of “internet misattribution,” and this quote — “The trouble with quotes on the internet is that it's difficult to determine whether or not they are genuine.” — hilariously pokes fun at that. Honest Abe may not have had Wi-Fi, but his legend lives on in meme culture.`,
             wiki: "Not Available",
             image: "https://th.bing.com/th/id/R.54bbc1785f6a06e0691dc5de1293efe8?rik=UaN4zHtMAf2O5g&riu=http%3a%2f%2fwww.dailymoss.com%2fwp-content%2fuploads%2f2018%2f01%2fIMG-9491.jpg&ehk=1CqpJyjplT1zBrA4GRft7VdFrhRQyNBBlX4epH1MCGg%3d&risl=&pid=ImgRaw&r=0",
             q: [
@@ -1038,9 +861,7 @@ export default function handler(req, res) {
         },
         abrahamL: {
             a: "Abraham Lincoln",
-            i: `Abraham Lincoln was the 16th President of the United States and one of the most revered figures in American history. 
-                He led the nation through the Civil War, preserved the Union, and played a pivotal role in the abolition of slavery. 
-                Known for his wisdom, humility, and powerful oratory, Lincoln’s legacy continues to shape the values of democracy and equality around the world.`,
+            i: `Abraham Lincoln was the 16th President of the United States and one of the most revered figures in American history. He led the nation through the Civil War, preserved the Union, and played a pivotal role in the abolition of slavery. Known for his wisdom, humility, and powerful oratory, Lincoln’s legacy continues to shape the values of democracy and equality around the world.`,
             wiki: "https://en.wikipedia.org/wiki/Abraham_Lincoln",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg/1024px-Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg",
             q: [
@@ -1049,9 +870,7 @@ export default function handler(req, res) {
         },
         elbertH: {
             a: "Elbert Hubbard",
-            i: `Elbert Hubbard was an American writer, publisher, artist, and philosopher known for his inspirational essays and aphorisms. 
-                He founded the Roycroft artisan community and was a prominent figure in the Arts and Crafts movement. 
-                Hubbard's writings often emphasized individualism, creativity, and self-reliance.`,
+            i: `Elbert Hubbard was an American writer, publisher, artist, and philosopher known for his inspirational essays and aphorisms. He founded the Roycroft artisan community and was a prominent figure in the Arts and Crafts movement. Hubbard's writings often emphasized individualism, creativity, and self-reliance.`,
             wiki: "https://en.wikipedia.org/wiki/Elbert_Hubbard",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Elbert_Hubbard_-_Project_Gutenberg_eText_12933.jpg/1024px-Elbert_Hubbard_-_Project_Gutenberg_eText_12933.jpg",
             q: [
@@ -1060,9 +879,7 @@ export default function handler(req, res) {
         },
         joeG: {
             a: "Joe Girard",
-            i: `Joe Girard is an American author and motivational speaker known for his expertise in sales and customer service. 
-                He holds the Guinness World Record for being the world's greatest salesman, having sold over 13,000 cars in a single year. 
-                Girard's principles of building relationships and providing exceptional service have inspired countless sales professionals.`,
+            i: `Joe Girard is an American author and motivational speaker known for his expertise in sales and customer service. He holds the Guinness World Record for being the world's greatest salesman, having sold over 13,000 cars in a single year. Girard's principles of building relationships and providing exceptional service have inspired countless sales professionals.`,
             wiki: "https://en.wikipedia.org/wiki/Joe_Girard",
             image: "https://i1.wp.com/www.konteudos.com.br/blog/empreendedorismo/wp-content/uploads/2019/04/Joe-Girard.jpg?fit=600%2C600&ssl=1",
             q: [
@@ -1071,9 +888,7 @@ export default function handler(req, res) {
         },
         jackieM:{
             a: "Jackie Mason",
-            i: `Jackie Mason was an American stand-up comedian and actor known for his unique blend of humor, cultural commentary, and political satire. 
-                His comedic style often drew from his Jewish heritage and experiences, making him a beloved figure in comedy. 
-                Mason's legacy as a performer and commentator continues to resonate with audiences today.`,
+            i: `Jackie Mason was an American stand-up comedian and actor known for his unique blend of humor, cultural commentary, and political satire. His comedic style often drew from his Jewish heritage and experiences, making him a beloved figure in comedy. Mason's legacy as a performer and commentator continues to resonate with audiences today.`,
             wiki: "https://en.wikipedia.org/wiki/Jackie_Mason",
             image: "https://upload.wikimedia.org/wikipedia/commons/2/20/JackieMasonOct06.jpg",
             q: [
@@ -1082,9 +897,7 @@ export default function handler(req, res) {
         },
         jimC: {
             a: "Jim Carrey",
-            i: `Jim Carrey is a Canadian-American actor, comedian, and writer known for his energetic performances and physical comedy. 
-                He gained fame in the 1990s with films like Ace Ventura: Pet Detective and The Mask, showcasing his unique blend of humor and emotion. 
-                Carrey's versatility as an actor has earned him critical acclaim and a dedicated fan base.`,
+            i: `Jim Carrey is a Canadian-American actor, comedian, and writer known for his energetic performances and physical comedy. He gained fame in the 1990s with films like Ace Ventura: Pet Detective and The Mask, showcasing his unique blend of humor and emotion. Carrey's versatility as an actor has earned him critical acclaim and a dedicated fan base.`,
             wiki: "https://en.wikipedia.org/wiki/Jim_Carrey",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Jim_Carrey_2020_cropped.jpg/1024px-Jim_Carrey_2020_cropped.jpg",
             q: [
@@ -1093,9 +906,7 @@ export default function handler(req, res) {
         },
         ronW: {
             a: "Ron White",
-            i: `Ron White is an American stand-up comedian and actor known for his laid-back style and sharp wit. 
-                He gained fame as a member of the Blue Collar Comedy Tour and has released several successful comedy albums and specials. 
-                White's humor often draws from his life experiences, making him a relatable and entertaining performer.`,
+            i: `Ron White is an American stand-up comedian and actor known for his laid-back style and sharp wit. He gained fame as a member of the Blue Collar Comedy Tour and has released several successful comedy albums and specials. White's humor often draws from his life experiences, making him a relatable and entertaining performer.`,
             wiki: "https://en.wikipedia.org/wiki/Ron_White",
             image: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Ron_White01.jpg",
             q: [
@@ -1104,9 +915,7 @@ export default function handler(req, res) {
         },
         billM: {
             a: "Bill Murray",
-            i: `Bill Murray is an American actor, comedian, and writer known for his unique blend of humor and charm. 
-                He gained fame in the 1980s with films like Ghostbusters and Groundhog Day, showcasing his ability to balance comedy with deeper themes. 
-                Murray's offbeat style and improvisational skills have made him a beloved figure in film and comedy.`,
+            i: `Bill Murray is an American actor, comedian, and writer known for his unique blend of humor and charm. He gained fame in the 1980s with films like Ghostbusters and Groundhog Day, showcasing his ability to balance comedy with deeper themes.  Murray's offbeat style and improvisational skills have made him a beloved figure in film and comedy.`,
             wiki: "https://en.wikipedia.org/wiki/Bill_Murray",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bill_Murray_at_the_2024_Toronto_International_Film_Festival_%28Riff_Raff%29_2_%283x4_cropped%29.jpg/1024px-Bill_Murray_at_the_2024_Toronto_International_Film_Festival_%28Riff_Raff%29_2_%283x4_cropped%29.jpg",
             q: [
@@ -1115,9 +924,7 @@ export default function handler(req, res) {
         },
         emileC: {
             a: "Emile Coue",
-            i: `Emile Coué was a French psychologist and pharmacist known for his work in autosuggestion and the placebo effect. 
-                He developed the Coué method, emphasizing the power of positive thinking and self-affirmation in achieving personal goals. 
-                Coué's teachings have influenced psychology and self-help practices, promoting the idea that belief can lead to positive change.`,
+            i: `Emile Coué was a French psychologist and pharmacist known for his work in autosuggestion and the placebo effect. He developed the Coué method, emphasizing the power of positive thinking and self-affirmation in achieving personal goals. Coué's teachings have influenced psychology and self-help practices, promoting the idea that belief can lead to positive change.`,
             wiki: "https://en.wikipedia.org/wiki/%C3%89mile_Cou%C3%A9",
             image: "https://upload.wikimedia.org/wikipedia/commons/e/e8/%C3%89mile_Cou%C3%A9_3.jpg",
             q: [
@@ -1126,9 +933,7 @@ export default function handler(req, res) {
         },
         anonymousFunny: {
             a: "Anonymous",
-            i: `Anonymous quotes are often attributed to unknown authors, reflecting universal truths and wisdom that resonate across cultures and time. 
-                These sayings capture the essence of human experience, offering insights on love, life, and perseverance. 
-                Their anonymity allows them to transcend individual identities, making them relatable and timeless.`,
+            i: `Anonymous quotes are often attributed to unknown authors, reflecting universal truths and wisdom that resonate across cultures and time. These sayings capture the essence of human experience, offering insights on love, life, and perseverance. Their anonymity allows them to transcend individual identities, making them relatable and timeless.`,
             wiki: "Not Available",
             image: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
             q: [
@@ -1162,9 +967,7 @@ export default function handler(req, res) {
         },
         anonymousAffirmation: {
             a: "Anonymous",
-            i: `Anonymous quotes are often attributed to unknown authors, reflecting universal truths and wisdom that resonate across cultures and time. 
-                These sayings capture the essence of human experience, offering insights on love, life, and perseverance. 
-                Their anonymity allows them to transcend individual identities, making them relatable and timeless.`,
+            i: `Anonymous quotes are often attributed to unknown authors, reflecting universal truths and wisdom that resonate across cultures and time. These sayings capture the essence of human experience, offering insights on love, life, and perseverance. Their anonymity allows them to transcend individual identities, making them relatable and timeless.`,
             wiki: "Not Available",
             image: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
             q: [
