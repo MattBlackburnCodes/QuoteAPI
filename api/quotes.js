@@ -12,7 +12,7 @@ export default function handler(req, res) {
     const authors = {
         winstonC: {
             a: "Winston Churchill",
-            i: `Winston Churchill was the Prime Minister of the United Kingdom during some of its darkest and most triumphant times, particularly during World War II. 
+            i: `    Winston Churchill was the Prime Minister of the United Kingdom during some of its darkest and most triumphant times, particularly during World War II. 
             Renowned for his rousing speeches, unyielding leadership, and indomitable spirit, Churchill became a symbol of British resilience. 
             Beyond politics, he was also a Nobel Prize-winning writer and a skilled painter, leaving behind a legacy of both statesmanship and creativity.`,
             wiki: "https://en.wikipedia.org/wiki/Winston_Churchill",
